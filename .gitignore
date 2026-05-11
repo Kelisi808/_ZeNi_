@@ -1,0 +1,33 @@
+# This is the PUBLIC ZéNí editorial repo. Treat the gitignore as a safety belt —
+# do not commit anything related to the implementation. The private repos
+# (Kelisi808/ZeNi, Kelisi808/pitstop, Kelisi808/sidequest) hold the source code.
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Secrets — should never appear here, but in case
+.env
+**/.env
+*.pem
+*.key
+Secrets/
+**/Secrets/
+
+# Build outputs (this repo has no build, but reserve)
+dist/
+build/
+node_modules/
+
+# Implementation-only file types — if these ever show up in a diff, something
+# is leaking from the private working trees. Block them by default.
+*.tsx
+*.ts
+*.jsx
+*.js
+src/
+apps/
+products/
+packages/
