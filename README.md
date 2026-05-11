@@ -19,9 +19,11 @@ ZéNí is the editorial and infrastructure vision for that missing layer.
 
 ## What this repository is
 
-This is the **public face** of ZéNí. It is an editorial, an educational guide, and a public-facing manifesto. It is not the product, not the source code, not the implementation. The conceptual ground covered here is portable knowledge — anyone interested in the Agentic Web, MCP, or the future of agentic AI should be able to leave with sharper thinking on those topics, whether they ever engage with the venture or not.
+This is the public editorial home for ZéNí. It exists to introduce the ideas behind the venture — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
 
-For the explicit line between this public material and the venture's private implementation, see **[Public Boundaries](PUBLIC_BOUNDARIES.md)**.
+The conceptual ground covered here is portable knowledge. Anyone interested in the Agentic Web, MCP, or the future of agentic AI should leave with sharper thinking on those topics, whether they ever engage with the venture or not.
+
+The product systems are developed separately. This repository focuses on education, positioning, and public context. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
 
 ## What to read
 
@@ -37,7 +39,7 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[Why ZéNí, why now](WHY_ZENI.md)** | The three-step timing argument and the venture's positioning. |
 | **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
-| **[Public Boundaries](PUBLIC_BOUNDARIES.md)** | The explicit policy on what is in this repository and what is not. |
+| **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
 
 ## The pipeline, in one sentence
 
@@ -65,4 +67,4 @@ The next ten years of software get built on coordination, not on cleverer models
 
 ---
 
-<sub>Founded by Kelisi Ananke. Harvard Master in Design Engineering. Pre-pilot, 2026. The text in this repository is published for visitor education and is not licensed for redistribution — see [LICENSE](LICENSE). For the explicit line between what is here and what is held privately, see [PUBLIC_BOUNDARIES.md](PUBLIC_BOUNDARIES.md).</sub>
+<sub>Founded by Kelisi Ananke. Harvard Master in Design Engineering. Pre-pilot, 2026. The text in this repository is published for visitor education — see [LICENSE](LICENSE) and the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md).</sub>

@@ -36,7 +36,7 @@ ZéNí is a coordination infrastructure venture in pre-pilot operation. We work 
 
 The pipeline is live. Private demonstration is available on request through the channels below.
 
-The implementation is closed and lives in repositories separate from this one. See [Public Boundaries](PUBLIC_BOUNDARIES.md) for the explicit line between this public-facing repository and the private working tree.
+The product systems are developed separately. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing of this repository.
 
 ---
 
@@ -68,19 +68,15 @@ GitHub: <https://github.com/Kelisi808>
 
 For investor outreach, pilot interest, partnership conversations, press inquiries, or anything else: the founder's [LinkedIn](https://www.linkedin.com/in/kelisi/) is the most direct path. Reach out with a short note indicating the nature of the conversation. Replies typically arrive within a few business days.
 
-For anything that does not require a private channel, the public [FAQ](FAQ.md) is the right starting point.
+For more general questions, the public [FAQ](FAQ.md) is the right starting point.
 
 ---
 
-## What this repository is, and is not
+## What this repository is
 
-This is the **public-facing editorial** for the venture. It exists to make the thesis legible to curious visitors — developers, partners, investors, journalists, classmates — without exposing the implementation.
+This is the public-facing knowledge and editorial home for ZéNí. It exists to help visitors understand the ideas, vocabulary, and vision behind the venture — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
 
-There is no SDK to install here. There is no API to call here. There is no source code to compile here.
-
-If you want to install something, you have come to the wrong repository. If you want to **understand something**, you are in the right place.
-
-For the explicit policy on what does and does not belong in this repository, see [Public Boundaries](PUBLIC_BOUNDARIES.md).
+The product systems are developed separately. This repository focuses on education, positioning, and public context. For the framing, see the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md).
 
 ---
 

@@ -8,23 +8,21 @@ Common questions from visitors, investors, journalists, prospective collaborator
 
 **Is this the ZéNí product?**
 
-No. This repository is the **public editorial face** of the venture. It is informational. It does not contain the product, the implementation, or the source code. See [PUBLIC_BOUNDARIES.md](PUBLIC_BOUNDARIES.md) for the explicit line between this repository and the private ones.
+This is the public editorial home for ZéNí — a place to understand the ideas, vocabulary, and vision behind the venture. The product systems are developed separately. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
 
 **Is ZéNí open source?**
 
-No. The ZéNí implementation is closed and is maintained in private repositories. Specific protocol-adjacent components may be open-sourced after the venture's first pilot, but the core product is not an open-source project.
+The implementation is currently private. Specific protocol-adjacent components may be open-sourced after the venture's first pilot, but the core product is not an open-source project today.
 
-**Why publish this repository at all, then?**
+**Why publish this repository at all?**
 
-Two reasons. First, because the conceptual ground covered here — the case for the Agentic Web, the role of MCP, why coordination is the bottleneck — is more valuable as widely-shared public knowledge than as a competitive secret. Second, because curious people need a way to engage with the venture before there is a product they can run.
+The conceptual ground covered here — the case for the Agentic Web, the role of MCP, why coordination is the bottleneck — is genuinely valuable as widely-shared public knowledge. Curious people deserve a way to engage with the venture's ideas without waiting for a product to exist publicly.
 
 This repository is the path for that engagement.
 
 **Can I quote or reference material from this repository?**
 
-For non-commercial purposes — journalism, academic writing, analyst coverage, classroom use — yes, with attribution. For commercial reuse, redistribution, or derivative works, no. See [LICENSE](LICENSE).
-
-If you would like to do something the license does not clearly cover, contact the founder. We are reasonable, but we are not unlimited.
+For non-commercial purposes — journalism, academic writing, analyst coverage, classroom use — yes, with attribution. For commercial reuse, redistribution, or derivative works, please reach out first. See [LICENSE](LICENSE).
 
 ---
 
@@ -34,7 +32,7 @@ If you would like to do something the license does not clearly cover, contact th
 
 ZéNí is an editorial and infrastructure vision for the Agentic Web: a future where AI agents, tools, humans, and protocols need shared systems of coordination, evidence, governance, and trust.
 
-In concrete terms, it ships as three live products that hold three corners of that coordination layer. The product roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md). The implementation details are private.
+In concrete terms, it ships as three live products that hold three corners of that coordination layer. The product roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md).
 
 **What problem does ZéNí solve?**
 

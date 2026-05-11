@@ -134,4 +134,4 @@ If you walked into this repository as a curious person and you walk out understa
 
 ---
 
-<sub>This is a public manifesto. It does not describe the ZéNí implementation. The implementation is private and lives in repositories under separate access policy. See [Public Boundaries](PUBLIC_BOUNDARIES.md) for the explicit line between what is here and what is not.</sub>
+<sub>This manifesto is part of the public ZéNí repository — a home for the ideas, vocabulary, and vision behind the venture. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for orientation.</sub>
