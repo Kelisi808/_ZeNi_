@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="ZeNi public layer diagram">
+  <rect width="1200" height="720" fill="#090B10"/>
+  <text x="80" y="110" fill="#F3F6FB" font-family="Arial, sans-serif" font-size="48" font-weight="700">ZeNi</text>
+  <text x="80" y="155" fill="#B7C0CE" font-family="Arial, sans-serif" font-size="22">Making agentic work visible, governed, and trustworthy.</text>
+  <rect x="80" y="230" width="300" height="160" rx="22" fill="#10141C" stroke="#313B4C"/>
+  <text x="110" y="285" fill="#F3F6FB" font-family="Arial, sans-serif" font-size="26" font-weight="700">Humans</text>
+  <text x="110" y="325" fill="#B7C0CE" font-family="Arial, sans-serif" font-size="18">Intent, oversight, approval</text>
+  <rect x="450" y="230" width="300" height="160" rx="22" fill="#10141C" stroke="#313B4C"/>
+  <text x="480" y="285" fill="#F3F6FB" font-family="Arial, sans-serif" font-size="26" font-weight="700">Agents</text>
+  <text x="480" y="325" fill="#B7C0CE" font-family="Arial, sans-serif" font-size="18">Workflows, tools, action</text>
+  <rect x="820" y="230" width="300" height="160" rx="22" fill="#10141C" stroke="#313B4C"/>
+  <text x="850" y="285" fill="#F3F6FB" font-family="Arial, sans-serif" font-size="26" font-weight="700">Evidence</text>
+  <text x="850" y="325" fill="#B7C0CE" font-family="Arial, sans-serif" font-size="18">Traceability, governance, trust</text>
+  <rect x="250" y="485" width="700" height="90" rx="24" fill="#16131F" stroke="#4A566B"/>
+  <text x="310" y="540" fill="#F3F6FB" font-family="Arial, sans-serif" font-size="28" font-weight="700">Operable Intelligence</text>
+  <text x="310" y="570" fill="#B7C0CE" font-family="Arial, sans-serif" font-size="18">AI that can be coordinated, reviewed, governed, and used in real work.</text>
+</svg>

@@ -41,6 +41,10 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
 | **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
 
+For visitors who prefer another language, extensive summaries live in **[`i18n/`](i18n/)** — Mandarin Chinese, French, Spanish, German, Danish, Greek. The summaries are self-sufficient: a reader can understand ZéNí from any one of them without reading the English content.
+
+For a fuller map of the repository, including the [primers](docs/primers/), the [editorial overview](docs/editorial/ze-ni-editorial-overview.md), and the public diagram, see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.
+
 ## The pipeline, in one sentence
 
 ZéNí ships as three live products in pre-pilot operation that together hold the corners of the coordination layer: an **operator console** for humans, a **routing and accountability engine** for machines, and a **trust fabric** that connects them. Implementation details are private. The role each product plays is described — at a deliberate altitude — in [About ZéNí](ABOUT_ZENI.md).

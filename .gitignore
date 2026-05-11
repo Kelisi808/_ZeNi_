@@ -31,3 +31,7 @@ src/
 apps/
 products/
 packages/
+
+# Local-only comparison folders dropped in by the founder for reference.
+# Not part of the public repository's content.
+_ZeNi__public_editorial_repo/
