@@ -80,8 +80,8 @@ Two observations make this urgent:
 
 If the Agentic Web is the missing layer, ZéNí is one bet on what that layer should look like — assembled from three working products that span discovery, routing, trust, and evidence. Not an exhaustive answer. Not the only answer. But a real implementation, in pre-pilot operation today, that takes the primitives above and ships them as something a real operator can use.
 
-Read [Why now, why ZéNí](PIVOTAL_MOMENT.md) for the timing argument and the positioning.
+Read [Why ZéNí, why now](WHY_ZENI.md) for the timing argument and the positioning.
 
 ---
 
-**Next →** [Model Context Protocol (MCP)](MCP.md) — the open standard that started turning isolated models into coordinated agents.
+**Next →** [Why MCP matters](WHY_MCP_MATTERS.md) — the open standard that started turning isolated models into coordinated agents.

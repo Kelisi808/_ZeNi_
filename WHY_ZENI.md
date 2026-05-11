@@ -1,6 +1,6 @@
-# Why now, why ZéNí
+# Why ZéNí, why now
 
-> The strongest signal we are in a platform shift is that the smartest people in adjacent industries are confused. Right now, they are confused.
+> The strongest signal that we are in a platform shift is that the smartest people in adjacent industries are confused about what to bet on. Right now, they are confused.
 
 ## The argument in three steps
 
@@ -22,7 +22,7 @@ If you accept those three steps, you accept that this is a generational position
 The current state of the coordination layer, with charity:
 
 - **Workflow framework vendors** (the LangGraphs, the CrewAIs, the AutoGens): solving developer ergonomics inside a single Python process. Helpful. Not the operational layer. Not auditable to a regulator. Not composable across companies.
-- **MCP-adjacent infrastructure** (the registries, the servers, the gateways): solving the transport-and-shape problem (see [MCP](MCP.md)). Necessary. Not sufficient.
+- **MCP-adjacent infrastructure** (the registries, the servers, the gateways): solving the transport-and-shape problem (see [Why MCP matters](WHY_MCP_MATTERS.md)). Necessary. Not sufficient.
 - **Hyperscaler "agent platforms"** (the AWS/Bedrock/Azure/GCP equivalents): well-funded, will get to good. But locked to their cloud and inheriting the operational assumptions of their cloud — which were built for a different generation of software.
 - **Application-layer AI products with embedded agents** (the Notions, the Cursors, the Glades): coordination shows up internally but never escapes the product. Not infrastructure.
 
@@ -64,13 +64,13 @@ The companies that own that layer, in five years, will be among the most valuabl
 
 If this argument compels you and you would like to learn more, the relevant paths:
 
-- **Investors** — outreach via the channels listed in [About](ABOUT.md).
+- **Investors** — outreach via the channels listed in [About ZéNí](ABOUT_ZENI.md).
 - **Prospective pilot customers** — same.
 - **Press and analysts** — same.
-- **Engineers curious about the architecture** — we are publishing essays here. The implementation is closed for the time being. As the venture matures, narrow open-source moves are planned for specific protocol-adjacent components.
+- **Engineers curious about the concepts** — we are publishing essays here. The implementation is closed for the time being. As the venture matures, narrow open-source moves are planned for specific protocol-adjacent components.
 
 The implementation is private. The thesis is not.
 
 ---
 
-**Back to** [README](../README.md) · **About →** [The venture and the founder](ABOUT.md)
+**Back to** [README](README.md) · **Read the manifesto →** [MANIFESTO.md](MANIFESTO.md)

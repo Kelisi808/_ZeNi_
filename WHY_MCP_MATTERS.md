@@ -1,6 +1,6 @@
-# Model Context Protocol (MCP)
+# Why MCP matters
 
-> Of every open standard published in the last three years, MCP is the one that quietly changed the most. Most people still haven't noticed.
+> Of every open standard published in the last three years, Model Context Protocol is the one that quietly changed the most. Most people still haven't noticed.
 
 ## What MCP is
 
@@ -72,15 +72,18 @@ That coordination layer is the Agentic Web problem. (See [The Agentic Web](AGENT
 
 ---
 
-## ZéNí's relationship to MCP
+## Why this matters for the next decade
 
-ZéNí ships an MCP interop surface on both human-facing and machine-facing sides of the pipeline:
+A protocol's value compounds with its adoption. The more systems speak MCP, the more valuable speaking MCP becomes for the next system. The flywheel has started. The question now is what gets built **around** MCP — the registries, the trust layers, the evidence chains, the policy substrates — and who builds them.
 
-- **PitStop** is an MCP **adapter**. It receives capability invocations from arbitrary MCP-compliant clients and presents them to its operator console with full policy gates and evidence.
-- **SideQuest** is an MCP **gateway**. It exposes the venture's governed capabilities (routing, leasing, accountability) over MCP so any compliant model or framework can call them — without that model having to know how the gateway is implemented.
+That layer of build-out is where the next platform shift happens.
 
-We treat MCP as a real interop surface, not as branding. The protocol is one of the reasons we believe a coordination-first venture, in 2026, can address a market that did not yet exist in 2024 and will be locked into shape by 2028.
+A venture's relationship to MCP is, in 2026, a more useful signal of long-term thinking than its model choice. The model choice will change three or four times in five years. The protocol choice compounds.
+
+ZéNí treats MCP as a real interop surface, not as branding. We are building toward a coordination layer where any compliant model and any compliant capability can participate — without locking participants to a specific vendor's orchestrator, a specific cloud's runtime, or a specific framework's opinion about what an agent is.
+
+The protocol layer is open. The layer above it is the prize.
 
 ---
 
-**Next →** [Why now, why ZéNí](PIVOTAL_MOMENT.md) — the timing argument and the positioning.
+**Next →** [Why ZéNí, why now](WHY_ZENI.md) — the timing argument and the positioning.
