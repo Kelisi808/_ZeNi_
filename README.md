@@ -17,6 +17,18 @@ The internet was built for humans. APIs were built for machines that wait to be 
 
 ZéNí is the editorial and infrastructure vision for that missing layer.
 
+<p align="center">
+  <img src="zeni-public-layer-diagram.svg" alt="Humans, Agents, and Evidence converge on Operable Intelligence — the layer ZéNí builds." width="100%" />
+</p>
+
+## 🌐 Read in your language
+
+Extensive hand-written summaries are available in six languages. Each one is self-sufficient — a reader can understand ZéNí from any single summary without reading the English content.
+
+**[中文 (简体)](Language%20Options/SUMMARY.zh-CN.md)** · **[Français](Language%20Options/SUMMARY.fr.md)** · **[Español](Language%20Options/SUMMARY.es.md)** · **[Deutsch](Language%20Options/SUMMARY.de.md)** · **[Dansk](Language%20Options/SUMMARY.da.md)** · **[Ελληνικά](Language%20Options/SUMMARY.el.md)**
+
+The picker page: [Language Options](Language%20Options/).
+
 ## What this repository is
 
 This is the public editorial home for ZéNí. It exists to introduce the ideas behind the venture — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
@@ -37,13 +49,12 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[The Agentic Web](AGENTIC_WEB.md)** | The condition the web takes on when its native participants are autonomous systems. Six primitives the missing layer needs. |
 | **[Why MCP matters](WHY_MCP_MATTERS.md)** | Model Context Protocol as the railroad gauge of the agentic era. What it gets right, what it deliberately leaves to others. |
 | **[Why ZéNí, why now](WHY_ZENI.md)** | The three-step timing argument and the venture's positioning. |
+| **[Trust and Governance](TRUST_AND_GOVERNANCE.md)** | Why trust and governance must be structural properties of agentic systems — not bolt-on features. |
 | **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
 | **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
 
-For visitors who prefer another language, extensive summaries live in **[`i18n/`](i18n/)** — Mandarin Chinese, French, Spanish, German, Danish, Greek. The summaries are self-sufficient: a reader can understand ZéNí from any one of them without reading the English content.
-
-For a fuller map of the repository, including the [primers](docs/primers/), the [editorial overview](docs/editorial/ze-ni-editorial-overview.md), and the public diagram, see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.
+For a map of every file in the repository (including the language summaries and reading paths), see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.
 
 ## The pipeline, in one sentence
 

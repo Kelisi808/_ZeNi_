@@ -47,12 +47,12 @@ Human oversight is not a button on the UI. It is a property of how the system wa
 
 The fuller treatment of these arguments is spread across the main repository:
 
-- [The Agentic Web](../../AGENTIC_WEB.md) — why the existing web's primitives don't fit
-- [Why MCP matters](../../WHY_MCP_MATTERS.md) — protocols as the substrate beneath the governance layer
-- [The manifesto](../../MANIFESTO.md) — the worldview, in long form, with the "we believe / we do not believe" stanzas
+- [The Agentic Web](AGENTIC_WEB.md) — why the existing web's primitives don't fit
+- [Why MCP matters](WHY_MCP_MATTERS.md) — protocols as the substrate beneath the governance layer
+- [The manifesto](MANIFESTO.md) — the worldview, in long form, with the "we believe / we do not believe" stanzas
 
 Together those three pieces give you the full editorial argument. This primer gives you the operational consequence.
 
 ---
 
-**Back to** [README](../../README.md) · **Manifesto** → [MANIFESTO.md](../../MANIFESTO.md)
+**Back to** [README](README.md) · **Manifesto** → [MANIFESTO.md](MANIFESTO.md)

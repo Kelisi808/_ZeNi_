@@ -9,7 +9,7 @@ The kind of contribution worth opening an issue or pull request for:
 - **A clarification.** A sentence in an essay that reads ambiguously, a glossary entry that overloads a term, or a primer that buries the central point. If you can make the existing prose land more cleanly, that is genuinely valuable.
 - **A factual correction.** Particularly in [`WHY_MCP_MATTERS.md`](WHY_MCP_MATTERS.md), [`AGENTIC_AI.md`](AGENTIC_AI.md), or anywhere that touches the broader industry. If the field has moved or we got something wrong, we want to know.
 - **A glossary refinement.** Definitions that are too narrow, too broad, or out of step with how a term is actually used in 2026.
-- **A translation polish.** The hand-written summaries in [`i18n/`](i18n/) cover six languages. Native speakers will sometimes catch phrasings that read awkwardly. Suggestions are welcome.
+- **A translation polish.** The hand-written summaries in [`Language Options/`](Language%20Options/) cover six languages. Native speakers will sometimes catch phrasings that read awkwardly. Suggestions are welcome.
 - **An editorial expansion.** If a primer or essay would clearly benefit from one more section, and you can write it in the existing voice, propose it. The bar is high but not closed.
 
 ## What is out of scope

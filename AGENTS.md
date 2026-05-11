@@ -12,7 +12,7 @@ You are working on the venture's public voice. Treat that responsibility serious
 
 ## How to think about edits
 
-When you propose or make a change to this repository, hold yourself to the editorial commitments documented in [`docs/editorial/ze-ni-editorial-overview.md`](docs/editorial/ze-ni-editorial-overview.md):
+When you propose or make a change to this repository, hold yourself to four editorial commitments:
 
 - **Confident without overclaiming.** A position the reader can disagree with is healthier than a marketing line they can dismiss.
 - **Substantive without being academic.** Every concept earns its place by its consequence in real work, not by theoretical density.
@@ -59,7 +59,7 @@ If the answer is yes, the content is appropriate. If the answer is no, or if the
 
 - The repository's reading distances are documented in [REPO_STRUCTURE.md](REPO_STRUCTURE.md). When adding content, decide where it sits on that ladder (manifesto → essay → primer → reference) and write to that distance.
 - Cross-link new content from the README and from related essays. The repository is a deliberate network, not a flat folder of files.
-- For new languages or large editorial expansions, follow the precedent set in [`i18n/`](i18n/) — hand-written summaries, not machine-translated stubs.
+- For new languages or large editorial expansions, follow the precedent set in [`Language Options/`](Language%20Options/) — hand-written summaries, not machine-translated stubs.
 - The implementation is private. The thesis is not. Hold that boundary in every edit.
 
 The goal is to help visitors understand why ZéNí matters without exposing how the private ZéNí system is built.
