@@ -60,6 +60,15 @@ For a map of every file in the repository (including the language summaries and 
 
 ZéNí ships as three live products in pre-pilot operation that together hold the corners of the coordination layer: an **operator console** for humans, a **routing and accountability engine** for machines, and a **trust fabric** that connects them. Implementation details are private. The role each product plays is described — at a deliberate altitude — in [About ZéNí](ABOUT_ZENI.md).
 
+## Current public proof
+
+The pipeline is live across all three services. A sanitized evidence sample shows the shape of a governed run without exposing private source, credentials, or customer data:
+
+- [Human-readable pipeline sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.html)
+- [Machine-readable pipeline sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.json)
+
+The current focus is turning autonomous AI work into decision-grade work: work that can be inspected, defended, and improved.
+
 ## What you should leave with
 
 If this repository does its job, you walk away with three things:

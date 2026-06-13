@@ -36,6 +36,8 @@ ZéNí is a coordination infrastructure venture in pre-pilot operation. We work 
 
 The pipeline is live. Private demonstration is available on request through the channels below.
 
+A sanitized [human-readable pipeline sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.html) and [machine-readable evidence sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.json) are available publicly. They show the structure of governed autonomous work without publishing the private implementation.
+
 The product systems are developed separately. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing of this repository.
 
 ---
