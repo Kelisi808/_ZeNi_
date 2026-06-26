@@ -16,14 +16,14 @@ The kind of contribution worth opening an issue or pull request for:
 
 This is a public editorial repository, not a product repository. The following do not belong here, regardless of how well-written they are:
 
-- Private implementation details — source code, partial code fragments, internal API contracts, schemas.
+- Product implementation details — source code, partial code fragments, internal API contracts, schemas.
 - Architecture descriptions that go below the conceptual level documented in the existing essays.
-- Proprietary routing logic, model allocation specifics, or any mechanism that would reveal how the private ZéNí pipeline is built.
+- Proprietary routing logic, model allocation specifics, or any mechanism that would reveal internal pipeline mechanics.
 - Internal product roadmaps with dates or commitments.
-- Private strategy memos or system documentation.
+- Strategy memos or internal system documentation.
 - Code from `Kelisi808/ZeNi`, `Kelisi808/pitstop`, or `Kelisi808/sidequest`.
 
-If a contribution would reveal how the private system works internally, it does not belong here — even if the contribution is otherwise good. The relevant test: "would a competitor learn something useful from this that they could not have inferred from a published essay or industry article?" If yes, the content belongs in a private repository.
+If a contribution would turn this public context layer into internal system documentation, it does not belong here — even if the contribution is otherwise good. The relevant test: "would a competitor learn something useful from this that they could not have inferred from a published essay or industry article?" If yes, the content belongs in a product working tree.
 
 ## Style
 

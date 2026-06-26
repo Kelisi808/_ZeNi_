@@ -2,7 +2,7 @@
 
 # ZéNí
 
-### _The operational backbone for the Agentic Web._
+### _The operating layer for trustworthy autonomous work._
 
 </div>
 
@@ -13,9 +13,9 @@
 
 ---
 
-The internet was built for humans. APIs were built for machines that wait to be called. Neither was built for **autonomous agents that find each other, negotiate work, and leave receipts.** That layer is missing — and it is the reason agentic AI is, today, mostly a demo.
+The internet was built for humans. APIs were built for machines that wait to be called. Neither was built for **autonomous agents that find each other, negotiate work, and leave receipts.** That layer is missing — and it is one reason agentic AI still feels more impressive in demos than in accountable operations.
 
-ZéNí is the editorial and infrastructure vision for that missing layer.
+ZéNí is the operating layer being built for that missing layer.
 
 <p align="center">
   <img src="zeni-public-layer-diagram.svg" alt="Humans, Agents, and Evidence converge on Operable Intelligence — the layer ZéNí builds." width="100%" />
@@ -31,11 +31,11 @@ The picker page: [Language Options](Language%20Options/).
 
 ## What this repository is
 
-This is the public editorial home for ZéNí. It exists to introduce the ideas behind the venture — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
+This is the public editorial home for ZéNí. It introduces the venture, the vocabulary around it, and the case for governed coordination across Agentic AI, the Agentic Web, MCP, evidence, and trust in AI-agent systems.
 
 The conceptual ground covered here is portable knowledge. Anyone interested in the Agentic Web, MCP, or the future of agentic AI should leave with sharper thinking on those topics, whether they ever engage with the venture or not.
 
-The product systems are developed separately. This repository focuses on education, positioning, and public context. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
+The live product surfaces and the public editorial layer evolve in parallel. This repository is the public context layer: essays, vocabulary, positioning, and the current deck. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
 
 ## What to read
 
@@ -52,13 +52,14 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[Trust and Governance](TRUST_AND_GOVERNANCE.md)** | Why trust and governance must be structural properties of agentic systems — not bolt-on features. |
 | **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
+| **[Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html)** | A browser-readable public deck summarizing the current venture frame. |
 | **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
 
 For a map of every file in the repository (including the language summaries and reading paths), see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.
 
 ## The pipeline, in one sentence
 
-ZéNí ships as three live products in pre-pilot operation that together hold the corners of the coordination layer: an **operator console** for humans, a **routing and accountability engine** for machines, and a **trust fabric** that connects them. Implementation details are private. The role each product plays is described — at a deliberate altitude — in [About ZéNí](ABOUT_ZENI.md).
+ZéNí ships as three live products in pre-pilot operation that together hold the corners of the coordination layer: an **operator cockpit** for humans, a **routing and accountability engine** for machines, and a **trust fabric** that connects them. The role each product plays is described in [About ZéNí](ABOUT_ZENI.md).
 
 ## What you should leave with
 
@@ -74,7 +75,7 @@ The next ten years of software get built on coordination, not on cleverer models
 
 <div align="center">
 
-**The implementation is private. The thesis is not.**
+**The thesis is public. The work is operational.**
 
 [Read the manifesto](MANIFESTO.md) · [Engage with the venture](ABOUT_ZENI.md#contact)
 

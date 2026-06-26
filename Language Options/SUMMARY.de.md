@@ -3,7 +3,7 @@
 > ZéNí existiert, weil das nächste Problem der KI nicht mehr nur Intelligenz ist.
 > Es geht darum, Intelligenz **nutzbar, koordiniert und vertrauenswürdig im echten Arbeitsalltag** zu machen.
 
-Dieses Repository ist die **öffentliche redaktionelle Heimat** von ZéNí. Es existiert, um Besucherinnen und Besuchern — neugierigen Entwicklern, potenziellen Partnern, Journalisten, Studierenden, Investoren — die Vision und Positionierung von ZéNí zu vermitteln, ohne eine einzige Zeile der privaten Implementierung offenzulegen. Diese deutsche Zusammenfassung ist eigenständig: Nach dem Lesen sollten Sie ein klares Verständnis davon haben, was ZéNí ist, welches Problem es adressiert und warum es zu einem entscheidenden Moment in der Entwicklung der KI eingreift.
+Dieses Repository ist die **öffentliche redaktionelle Heimat** von ZéNí. Es existiert, um Besucherinnen und Besuchern — neugierigen Entwicklern, potenziellen Partnern, Journalisten, Studierenden, Investoren — die Vision, Positionierung und öffentlichen Materialien von ZéNí zu vermitteln. Diese deutsche Zusammenfassung ist eigenständig: Nach dem Lesen sollten Sie ein klares Verständnis davon haben, was ZéNí ist, welches Problem es adressiert und warum es zu einem entscheidenden Moment in der Entwicklung der KI eingreift.
 
 ---
 
@@ -95,7 +95,7 @@ Dieses Repository ist die **öffentliche Seite** von ZéNí. Ein Artefakt für B
 
 Es enthält: Essays über agentische KI, das Agentische Web, MCP; ein Manifest; ein Glossar und FAQ; Kontaktinformationen der Gründerin. Alles hier ist so gedacht, dass es zitierbar, teilbar und nützlich ist für jemanden, der verstehen will.
 
-Die privaten Produktsysteme werden separat entwickelt. Dieses Repository konzentriert sich auf Bildung, Positionierung und öffentlichen Kontext.
+Die Produktsysteme und die öffentliche redaktionelle Ebene entwickeln sich parallel. Dieses Repository konzentriert sich auf Bildung, Positionierung, öffentlichen Kontext und die aktuellen öffentlichen Materialien.
 
 ---
 

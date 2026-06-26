@@ -2,7 +2,7 @@
 
 ## In one paragraph
 
-ZéNí is an editorial and infrastructure vision for the Agentic Web — a future where AI agents, tools, humans, and protocols need shared systems of coordination, evidence, governance, and trust. We exist because the next problem in AI is not only intelligence. It is making intelligence **usable, coordinated, and trustworthy in real work.**
+ZéNí is building governed coordination for autonomous agent teams. It connects PitStop, the human command surface, with SideQuest, the machine routing, skill leasing, and performance-memory layer. Together they turn ambiguous intent into governed, inspectable execution where policy, receipts, model allocation, and continuity stay visible.
 
 ---
 
@@ -26,17 +26,31 @@ For terms used throughout, see the [Glossary](GLOSSARY.md). For visitor and inve
 
 ## What ZéNí is, in practice
 
-ZéNí is a coordination infrastructure venture in pre-pilot operation. We work in three corners of the coordination layer simultaneously:
+ZéNí is a coordination infrastructure venture in pre-pilot operation. The system works in three corners of the coordination layer simultaneously:
 
 | Corner | Role |
 |---|---|
-| **The operator console** | The human side of the loop. Where missions are described, work is observed, evidence is reviewed, interventions are made. |
-| **The routing and accountability engine** | The machine side. Capability discovery, deterministic routing, policy-bound skill leases, signed receipts. |
-| **The trust fabric** | The hub. Governance, evidence, readiness, continuity across systems that want to coordinate. |
+| **PitStop** | The operator cockpit for dispatch, visibility, review, export, and intervention. |
+| **SideQuest** | The machine-facing layer for capability discovery, skill leases, task ledgers, routing memory, outcomes, receipts, and metrics. |
+| **ZéNí** | The trust fabric that keeps governance, evidence standards, readiness, continuity, integration, and learning coherence aligned across the loop. |
 
-The pipeline is live. Private demonstration is available on request through the channels below.
+The pipeline is live in pre-pilot operation. Demonstration is available on request through the channels below.
 
-The product systems are developed separately. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing of this repository.
+The public deck is available here: [ZéNí Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html).
+
+---
+
+## The operating loop
+
+ZéNí is not another chatbot or agent framework. It is the operating loop that makes autonomous work visible enough to trust:
+
+1. **Describe** the mission, constraints, and desired outcome.
+2. **Route** the right agents, models, skills, tools, and policy paths.
+3. **Execute** with state, decisions, and evidence visible while the work is happening.
+4. **Review** outputs, receipts, and exceptions through a human command surface.
+5. **Learn** from completed work so future missions can improve without silent drift.
+
+The moat is the operating loop, not audit logs alone. ZéNí treats skills, tools, agents, models, approvals, and receipts as governed resources inside one accountable system.
 
 ---
 
@@ -57,8 +71,8 @@ GitHub: <https://github.com/Kelisi808>
 | | |
 |---|---|
 | Stage | Pre-pilot |
-| Pipeline | Three live products in operation; private demonstration available on request |
-| Open source | Implementation is closed. Specific protocol-adjacent components planned for open-source release after first pilot. |
+| Pipeline | Three live products in operation; demonstration available on request |
+| Public materials | Editorial essays, glossary, FAQ, public repository note, and current cinematic editorial pitch deck |
 | Hiring | Not actively hiring engineering. Selectively in conversation with prospective design and operations collaborators. |
 | Investment | In conversation. Outreach welcome. |
 
@@ -76,7 +90,7 @@ For more general questions, the public [FAQ](FAQ.md) is the right starting point
 
 This is the public-facing knowledge and editorial home for ZéNí. It exists to help visitors understand the ideas, vocabulary, and vision behind the venture — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
 
-The product systems are developed separately. This repository focuses on education, positioning, and public context. For the framing, see the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md).
+The repository focuses on public context: the thesis, the vocabulary, the public venture materials, and the current deck. For the framing, see the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md).
 
 ---
 

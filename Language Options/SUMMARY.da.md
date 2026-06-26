@@ -3,7 +3,7 @@
 > ZéNí findes, fordi det næste problem inden for AI ikke længere kun handler om intelligens.
 > Det handler om at gøre intelligens **brugbar, koordineret og troværdig i rigtigt arbejde.**
 
-Dette repositorium er **ZéNí's offentlige redaktionelle hjem**. Det findes for at hjælpe besøgende — nysgerrige udviklere, mulige partnere, journalister, studerende, investorer — med at forstå ZéNí's vision og positionering, uden at afsløre en eneste linje privat implementering. Dette resumé på dansk er tænkt som selvbærende: efter du har læst det, skal du have en klar forståelse af, hvad ZéNí er, hvilket problem det adresserer, og hvorfor det griber ind i et afgørende øjeblik for AI-udviklingen.
+Dette repositorium er **ZéNí's offentlige redaktionelle hjem**. Det findes for at hjælpe besøgende — nysgerrige udviklere, mulige partnere, journalister, studerende, investorer — med at forstå ZéNí's vision, positionering og offentlige materialer. Dette resumé på dansk er tænkt som selvbærende: efter du har læst det, skal du have en klar forståelse af, hvad ZéNí er, hvilket problem det adresserer, og hvorfor det griber ind i et afgørende øjeblik for AI-udviklingen.
 
 ---
 
@@ -95,7 +95,7 @@ Dette repositorium er ZéNí's **offentlige ansigt**. Et artefakt for uddannelse
 
 Det indeholder: essays om agentisk AI, det Agentiske Web, MCP; et manifest; en ordliste og FAQ; grundlæggerens kontaktoplysninger. Alt her er tænkt som citerbart, delbart og nyttigt for en besøgende, der vil forstå.
 
-De private produktsystemer udvikles separat. Dette repositorium fokuserer på uddannelse, positionering og offentlig kontekst.
+Produktsystemerne og den offentlige redaktionelle flade udvikles parallelt. Dette repositorium fokuserer på uddannelse, positionering, offentlig kontekst og de aktuelle offentlige materialer.
 
 ---
 

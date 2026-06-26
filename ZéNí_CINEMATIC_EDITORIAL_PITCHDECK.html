@@ -1,0 +1,994 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ZéNí cinematic editorial pitch deck: trustworthy autonomous work, efficient AI operations, PitStop, SideQuest, Agentic Mode, and Mission Twin." />
+  <title>ZéNí | Cinematic Editorial Pitch Deck</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --stage: #0c0a08;
+      --stage-2: #14110d;
+      --paper: #f6efe3;
+      --paper-hi: #fffaf1;
+      --paper-low: #efe3d1;
+      --ink: #17120d;
+      --muted: #5d554b;
+      --quiet: #807365;
+      --line: #cdbda8;
+      --line-dark: #3b3027;
+      --rust: #9c4d30;
+      --rust-hi: #d47a57;
+      --blue: #145f77;
+      --blue-hi: #68d7ff;
+      --green: #326a4f;
+      --green-hi: #7cf29a;
+      --gold: #967018;
+      --gold-hi: #f5c96a;
+      --violet: #67517d;
+      --violet-hi: #c7b5ff;
+      --black: #0c0a08;
+      --serif: Georgia, "Source Serif 4", "Times New Roman", serif;
+      --sans: Inter, "Helvetica Neue", Arial, sans-serif;
+      --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background-color: var(--stage);
+      background-image:
+        linear-gradient(90deg, rgba(246, 239, 227, 0.035) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(246, 239, 227, 0.025) 1px, transparent 1px),
+        linear-gradient(180deg, var(--stage), var(--stage-2) 42%, #080706 100%);
+      background-size: 84px 84px, 84px 84px, auto;
+      color: var(--paper);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.15;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 36px 36px;
+      mask-image: linear-gradient(180deg, black, transparent 90%);
+    }
+
+    a { color: inherit; }
+    p, li { color: inherit; }
+
+    .deck-shell {
+      min-height: 100vh;
+      padding: 22px clamp(16px, 3vw, 42px) 64px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 18px;
+      max-width: 1440px;
+      margin: 0 auto 34px;
+      padding: 12px 16px;
+      border: 1px solid rgba(205, 189, 168, 0.22);
+      background: rgba(12, 10, 8, 0.96);
+      box-shadow: 0 10px 0 rgba(0, 0, 0, 0.18);
+    }
+
+    .brand-lockup {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--paper-hi);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .brand-mark {
+      width: 28px;
+      height: 28px;
+      border: 1px solid rgba(246, 239, 227, 0.42);
+      background:
+        linear-gradient(135deg, rgba(156, 77, 48, 0.5), rgba(20, 95, 119, 0.55)),
+        #17120d;
+      display: grid;
+      place-items: center;
+      font-family: var(--serif);
+      font-size: 13px;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-lockup strong {
+      font-family: var(--serif);
+      font-size: 18px;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      min-width: 0;
+      overflow: auto;
+      scrollbar-width: none;
+    }
+    .nav::-webkit-scrollbar { display: none; }
+    .nav a {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      color: rgba(246, 239, 227, 0.68);
+      text-decoration: none;
+      font-size: 11px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+    .nav a:hover, .nav a:focus-visible {
+      color: var(--paper-hi);
+      border-color: rgba(205, 189, 168, 0.24);
+      outline: none;
+      background: rgba(255, 250, 241, 0.06);
+    }
+
+    .deck-meta {
+      color: rgba(246, 239, 227, 0.70);
+      font-family: var(--mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      white-space: nowrap;
+    }
+
+    .slides {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: grid;
+      gap: clamp(22px, 4vw, 54px);
+    }
+
+    .slide {
+      min-height: clamp(680px, 84vh, 980px);
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      overflow: hidden;
+      border: 1px solid rgba(205, 189, 168, 0.36);
+      background: var(--paper);
+      color: var(--ink);
+      box-shadow: 0 28px 90px rgba(0, 0, 0, 0.44);
+      isolation: isolate;
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(23, 18, 13, 0.032) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(23, 18, 13, 0.024) 1px, transparent 1px),
+        linear-gradient(135deg, var(--paper-hi), var(--paper) 48%, var(--paper-low));
+      background-size: 44px 44px, 44px 44px, auto;
+    }
+
+    .slide::after {
+      content: "";
+      position: absolute;
+      inset: 15px;
+      z-index: -1;
+      pointer-events: none;
+      border: 1px solid rgba(23, 18, 13, 0.10);
+    }
+
+    .slide.dark {
+      background: #0f1117;
+      color: var(--paper);
+      border-color: rgba(246, 239, 227, 0.18);
+    }
+    .slide.dark::before {
+      background:
+        linear-gradient(90deg, rgba(246, 239, 227, 0.030) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(246, 239, 227, 0.020) 1px, transparent 1px),
+        linear-gradient(135deg, #11100d, #080706 52%, #15110d);
+      background-size: 44px 44px, 44px 44px, auto;
+    }
+    .slide.dark::after { border-color: rgba(246, 239, 227, 0.11); }
+
+    .slide-number {
+      position: absolute;
+      top: 28px;
+      right: 34px;
+      z-index: 5;
+      color: rgba(23, 18, 13, 0.48);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .dark .slide-number { color: rgba(246, 239, 227, 0.46); }
+
+    .frame-label {
+      position: absolute;
+      left: 32px;
+      top: 28px;
+      z-index: 5;
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      color: var(--rust);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .frame-label::before {
+      content: "";
+      display: inline-block;
+      width: 36px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.65;
+    }
+    .dark .frame-label { color: var(--gold-hi); }
+
+    .slide-inner {
+      width: 100%;
+      display: grid;
+      gap: clamp(22px, 3vw, 42px);
+      padding: clamp(72px, 8vw, 118px) clamp(30px, 7vw, 108px) clamp(42px, 5vw, 88px);
+      align-content: center;
+    }
+
+    .hero-grid {
+      grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.72fr);
+      align-items: end;
+    }
+
+    .split-grid {
+      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+      align-items: stretch;
+    }
+
+    .wide-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+      align-items: stretch;
+    }
+
+    .two-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: stretch;
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--blue);
+      font-family: var(--mono);
+      font-size: 12px;
+      line-height: 1.3;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+    .dark .eyebrow { color: var(--blue-hi); }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      margin-bottom: 28px;
+      font-family: var(--serif);
+      font-size: clamp(60px, 9.6vw, 142px);
+      line-height: 0.84;
+      letter-spacing: -0.075em;
+      max-width: 11ch;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin-bottom: 26px;
+      font-family: var(--serif);
+      font-size: clamp(38px, 5.8vw, 86px);
+      line-height: 0.93;
+      letter-spacing: -0.055em;
+      font-weight: 700;
+      max-width: 12ch;
+    }
+
+    h3 {
+      margin-bottom: 12px;
+      font-family: var(--serif);
+      font-size: clamp(23px, 2.35vw, 38px);
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+      font-weight: 700;
+    }
+
+    .dek {
+      max-width: 760px;
+      margin-bottom: 28px;
+      color: var(--muted);
+      font-size: clamp(19px, 2.2vw, 31px);
+      line-height: 1.18;
+      letter-spacing: -0.028em;
+      font-weight: 600;
+    }
+    .dark .dek { color: rgba(246, 239, 227, 0.78); }
+
+    .body-copy {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: clamp(16px, 1.3vw, 20px);
+      line-height: 1.54;
+    }
+    .dark .body-copy { color: rgba(246, 239, 227, 0.72); }
+
+    .hero-statement {
+      max-width: 700px;
+      padding-top: 26px;
+      border-top: 1px solid rgba(205, 189, 168, 0.34);
+      color: rgba(246, 239, 227, 0.78);
+      font-size: clamp(17px, 1.5vw, 22px);
+    }
+
+    .quote-band {
+      position: relative;
+      padding: clamp(22px, 3vw, 38px);
+      border-left: 4px solid var(--rust);
+      background: rgba(255, 250, 241, 0.62);
+      box-shadow: inset 0 0 0 1px rgba(23, 18, 13, 0.08);
+    }
+    .dark .quote-band {
+      background: rgba(246, 239, 227, 0.055);
+      border-left-color: var(--gold-hi);
+      box-shadow: inset 0 0 0 1px rgba(246, 239, 227, 0.10);
+    }
+    .quote-band p {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(28px, 4.2vw, 68px);
+      line-height: 0.96;
+      letter-spacing: -0.05em;
+      color: currentColor;
+    }
+
+    .caption {
+      margin-top: 14px;
+      color: var(--quiet);
+      font-family: var(--mono);
+      font-size: 11px;
+      line-height: 1.45;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .dark .caption { color: rgba(246, 239, 227, 0.48); }
+
+    .metric-stack {
+      display: grid;
+      gap: 14px;
+      align-content: end;
+    }
+    .metric {
+      border: 1px solid rgba(23, 18, 13, 0.14);
+      background: rgba(255, 250, 241, 0.58);
+      padding: 22px;
+    }
+    .dark .metric {
+      border-color: rgba(246, 239, 227, 0.12);
+      background: rgba(246, 239, 227, 0.05);
+    }
+    .metric b {
+      display: block;
+      margin-bottom: 5px;
+      font-family: var(--serif);
+      font-size: clamp(32px, 4.8vw, 66px);
+      line-height: 0.9;
+      letter-spacing: -0.05em;
+      color: var(--rust);
+    }
+    .dark .metric b { color: var(--gold-hi); }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .dark .metric span { color: rgba(246, 239, 227, 0.66); }
+
+    .card {
+      position: relative;
+      min-height: 100%;
+      padding: clamp(22px, 2.7vw, 36px);
+      border: 1px solid rgba(23, 18, 13, 0.14);
+      background: rgba(255, 250, 241, 0.56);
+      box-shadow: inset 0 0 0 1px rgba(255, 250, 241, 0.32);
+    }
+    .dark .card {
+      border-color: rgba(246, 239, 227, 0.13);
+      background: rgba(246, 239, 227, 0.055);
+      box-shadow: inset 0 0 0 1px rgba(246, 239, 227, 0.03);
+    }
+
+    .card.kicker-rust { border-top: 6px solid var(--rust); }
+    .card.kicker-blue { border-top: 6px solid var(--blue); }
+    .card.kicker-green { border-top: 6px solid var(--green); }
+    .card.kicker-violet { border-top: 6px solid var(--violet); }
+    .card.kicker-gold { border-top: 6px solid var(--gold); }
+    .dark .card.kicker-rust { border-top-color: var(--rust-hi); }
+    .dark .card.kicker-blue { border-top-color: var(--blue-hi); }
+    .dark .card.kicker-green { border-top-color: var(--green-hi); }
+    .dark .card.kicker-violet { border-top-color: var(--violet-hi); }
+    .dark .card.kicker-gold { border-top-color: var(--gold-hi); }
+
+    .card p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .dark .card p { color: rgba(246, 239, 227, 0.70); }
+
+    .mini-label {
+      display: inline-flex;
+      margin-bottom: 18px;
+      color: var(--blue);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+    .dark .mini-label { color: var(--blue-hi); }
+
+    .system-map {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 64px minmax(0, 1fr);
+      gap: 16px;
+      align-items: stretch;
+    }
+    .system-node {
+      padding: 28px;
+      min-height: 230px;
+      border: 1px solid rgba(246, 239, 227, 0.14);
+      background:
+        linear-gradient(180deg, rgba(246, 239, 227, 0.08), rgba(246, 239, 227, 0.03));
+      display: grid;
+      align-content: space-between;
+    }
+    .system-node strong {
+      font-family: var(--serif);
+      font-size: clamp(32px, 4.2vw, 58px);
+      line-height: 0.9;
+      letter-spacing: -0.055em;
+    }
+    .system-node span {
+      color: rgba(246, 239, 227, 0.62);
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .connector {
+      display: grid;
+      place-items: center;
+      color: var(--gold-hi);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      writing-mode: vertical-rl;
+      text-transform: uppercase;
+      border-block: 1px solid rgba(246, 239, 227, 0.16);
+    }
+    .trust-fabric {
+      grid-column: 1 / -1;
+      border: 1px solid rgba(245, 201, 106, 0.36);
+      background: rgba(150, 112, 24, 0.13);
+      padding: 22px 28px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+    .trust-fabric strong {
+      color: var(--gold-hi);
+      font-family: var(--serif);
+      font-size: 36px;
+      line-height: 0.95;
+      letter-spacing: -0.045em;
+    }
+    .trust-fabric span { color: rgba(246, 239, 227, 0.68); }
+
+    .loop {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+      counter-reset: loop;
+    }
+    .loop-step {
+      min-height: 210px;
+      padding: 18px;
+      border: 1px solid rgba(23, 18, 13, 0.15);
+      background: rgba(255, 250, 241, 0.52);
+      counter-increment: loop;
+    }
+    .loop-step::before {
+      content: "0" counter(loop);
+      display: block;
+      margin-bottom: 18px;
+      color: var(--rust);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+    }
+    .loop-step strong {
+      display: block;
+      margin-bottom: 10px;
+      font-family: var(--serif);
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .loop-step span {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 18px;
+      margin-top: 12px;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 11px;
+      top: 8px;
+      bottom: 8px;
+      width: 1px;
+      background: rgba(23, 18, 13, 0.18);
+    }
+    .dark .timeline::before { background: rgba(246, 239, 227, 0.16); }
+    .timeline-item {
+      position: relative;
+      padding-left: 42px;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 999px;
+      border: 1px solid currentColor;
+      background: var(--paper);
+      color: var(--rust);
+    }
+    .dark .timeline-item::before { background: #10141c; color: var(--gold-hi); }
+    .timeline-item strong {
+      display: block;
+      font-family: var(--serif);
+      font-size: 25px;
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+      margin-bottom: 6px;
+    }
+    .timeline-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .dark .timeline-item span { color: rgba(246, 239, 227, 0.70); }
+
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .evidence-tile {
+      min-height: 190px;
+      padding: 18px;
+      border: 1px solid rgba(246, 239, 227, 0.12);
+      background: rgba(246, 239, 227, 0.055);
+    }
+    .evidence-tile b {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--gold-hi);
+      font-family: var(--serif);
+      font-size: 34px;
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    .evidence-tile span {
+      color: rgba(246, 239, 227, 0.66);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
+    }
+    .tag {
+      padding: 8px 10px;
+      border: 1px solid rgba(23, 18, 13, 0.16);
+      background: rgba(255, 250, 241, 0.48);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .dark .tag {
+      border-color: rgba(246, 239, 227, 0.13);
+      background: rgba(246, 239, 227, 0.05);
+      color: rgba(246, 239, 227, 0.68);
+    }
+
+    .full-bleed-word {
+      position: absolute;
+      right: -0.08em;
+      bottom: -0.19em;
+      z-index: -1;
+      color: rgba(23, 18, 13, 0.055);
+      font-family: var(--serif);
+      font-size: clamp(120px, 23vw, 340px);
+      line-height: 0.8;
+      letter-spacing: -0.08em;
+      pointer-events: none;
+      user-select: none;
+    }
+    .dark .full-bleed-word { color: rgba(246, 239, 227, 0.045); }
+
+    .closing-panel {
+      align-self: end;
+      border: 1px solid rgba(246, 239, 227, 0.16);
+      background: rgba(246, 239, 227, 0.06);
+      padding: clamp(22px, 3vw, 38px);
+    }
+    .closing-panel dl {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 12px 18px;
+      margin: 0;
+    }
+    .closing-panel dt {
+      color: rgba(246, 239, 227, 0.44);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .closing-panel dd {
+      margin: 0;
+      color: rgba(246, 239, 227, 0.82);
+    }
+
+    .print-note {
+      max-width: 1440px;
+      margin: 18px auto 0;
+      color: rgba(246, 239, 227, 0.50);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-align: right;
+    }
+
+    @media (max-width: 1100px) {
+      .topbar { grid-template-columns: 1fr; }
+      .nav { justify-content: flex-start; }
+      .deck-meta { display: none; }
+      .hero-grid, .split-grid, .two-grid, .wide-grid { grid-template-columns: 1fr; }
+      .loop { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .evidence-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .system-map { grid-template-columns: 1fr; }
+      .connector { writing-mode: horizontal-tb; min-height: 42px; border-block: none; border-inline: 1px solid rgba(246, 239, 227, 0.16); }
+      .trust-fabric { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 680px) {
+      .deck-shell { padding-inline: 12px; }
+      .slide { min-height: auto; }
+      .slide-inner { padding: 82px 24px 42px; }
+      .slide-number { right: 24px; }
+      .frame-label { left: 24px; }
+      .loop, .evidence-grid { grid-template-columns: 1fr; }
+      .closing-panel dl { grid-template-columns: 1fr; }
+      h1 { font-size: clamp(56px, 16vw, 76px); }
+      h2 { font-size: clamp(38px, 12vw, 58px); }
+    }
+
+    @media print {
+      html { scroll-behavior: auto; }
+      body { background: #fff; color: #000; }
+      .deck-shell { padding: 0; }
+      .topbar, .print-note { display: none; }
+      .slides { display: block; max-width: none; }
+      .slide {
+        min-height: 100vh;
+        page-break-after: always;
+        break-after: page;
+        box-shadow: none;
+        border: none;
+      }
+      .slide-inner { padding: 0.72in; }
+    }
+  </style>
+</head>
+<body>
+  <div class="deck-shell">
+    <header class="topbar" aria-label="Deck navigation">
+      <a class="brand-lockup" href="#cover" aria-label="Go to cover">
+        <span class="brand-mark">Z</span>
+        <strong>ZéNí</strong>
+      </a>
+      <nav class="nav">
+        <a href="#problem">Problem</a>
+        <a href="#solution">System</a>
+        <a href="#mission-twin">Mission Twin</a>
+        <a href="#climate">Climate</a>
+        <a href="#proof">Proof</a>
+        <a href="#market">Market</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+      <div class="deck-meta">Climate Circle Edition · 2026</div>
+    </header>
+
+    <main class="slides">
+      <section class="slide dark" id="cover">
+        <div class="slide-number">00 / Opening Frame</div>
+        <div class="frame-label">Pitch Deck</div>
+        <div class="slide-inner hero-grid">
+          <div>
+            <p class="eyebrow">ZéNí · Trustworthy autonomous work</p>
+            <h1>Make intelligence operable.</h1>
+            <p class="dek">ZéNí is the operating layer for trustworthy autonomous work, turning governed agent execution into decision-grade outcomes.</p>
+            <p class="hero-statement">The venture is building a governed infrastructure system across PitStop, SideQuest, Agentic Mode, and Mission Twin so AI work can be routed, reviewed, evidenced, reused, and improved instead of repeatedly regenerated from scratch.</p>
+          </div>
+          <aside class="metric-stack" aria-label="Venture facts">
+            <div class="metric"><b>01</b><span>Sole founder: Kelisi Ananke, Harvard Master in Design Engineering ecosystem.</span></div>
+            <div class="metric"><b>User Validation</b><span>Built product infrastructure and moving toward structured pilots.</span></div>
+            <div class="metric"><b>Other</b><span>Primary climate area: sustainable AI infrastructure and efficient computing.</span></div>
+          </aside>
+        </div>
+        <div class="full-bleed-word">operable</div>
+      </section>
+
+      <section class="slide" id="problem">
+        <div class="slide-number">01 / Problem</div>
+        <div class="frame-label">The gap</div>
+        <div class="slide-inner split-grid">
+          <div>
+            <p class="eyebrow">AI can answer. AI work is still hard to trust.</p>
+            <h2>Teams get outputs without operating receipts.</h2>
+            <p class="body-copy">A result may look useful while hiding why a route was chosen, which model or agent contributed, what evidence supported it, whether policy was followed, and what should change next time.</p>
+          </div>
+          <div class="quote-band">
+            <p>The bottleneck is no longer only generation. It is review, provenance, routing, and reuse.</p>
+            <div class="caption">Decision-sensitive teams still rebuild trust manually after the machine has already acted.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-number">02 / Consequence</div>
+        <div class="frame-label">Why it matters</div>
+        <div class="slide-inner two-grid">
+          <div>
+            <p class="eyebrow">The cost of ungoverned autonomy</p>
+            <h2>Every hidden decision becomes a future liability.</h2>
+            <p class="body-copy">When autonomous work lacks an execution record, teams hesitate to delegate more responsibility. They manually verify outputs, repeat similar prompts, rerun expensive models, and lose the chance to learn from what already worked.</p>
+          </div>
+          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+            <article class="card kicker-rust">
+              <span class="mini-label">Trust loss</span>
+              <h3>Review burden grows</h3>
+              <p>People become the missing operating layer, checking facts, reconstructing decisions, and deciding what can be reused.</p>
+            </article>
+            <article class="card kicker-blue">
+              <span class="mini-label">Compute waste</span>
+              <h3>Work repeats itself</h3>
+              <p>Without preserved evidence and routing memory, teams rerun similar work instead of improving from mission history.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark" id="solution">
+        <div class="slide-number">03 / Product System</div>
+        <div class="frame-label">Architecture</div>
+        <div class="slide-inner">
+          <div>
+            <p class="eyebrow">Three products. One governed operating loop.</p>
+            <h2>ZéNí makes autonomous work visible.</h2>
+            <p class="dek">PitStop gives humans a command surface. SideQuest routes, leases skills, and records machine work. ZéNí defines the trust fabric across both.</p>
+          </div>
+          <div class="system-map" aria-label="ZéNí product architecture">
+            <div class="system-node">
+              <strong>PitStop</strong>
+              <span>Human-facing operator cockpit for missions, monitoring, review, intervention, and export.</span>
+            </div>
+            <div class="connector">Agentic Mode</div>
+            <div class="system-node">
+              <strong>SideQuest</strong>
+              <span>Machine-facing routing, registry, skill leases, task ledgers, outcomes, receipts, metrics, and accountability.</span>
+            </div>
+            <div class="trust-fabric">
+              <strong>ZéNí</strong>
+              <span>Governance, evidence standards, readiness, continuity, integration, and learning coherence across the system.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide-number">04 / Operating Loop</div>
+        <div class="frame-label">How it works</div>
+        <div class="slide-inner">
+          <div>
+            <p class="eyebrow">From intent to evidence, then from evidence to improvement</p>
+            <h2>The loop is the product.</h2>
+          </div>
+          <div class="loop" aria-label="ZéNí operating loop">
+            <div class="loop-step"><strong>Describe</strong><span>The operator defines the mission, constraints, and desired outcome.</span></div>
+            <div class="loop-step"><strong>Route</strong><span>SideQuest selects agents, models, skills, tools, and policy paths.</span></div>
+            <div class="loop-step"><strong>Execute</strong><span>Agentic Mode makes execution state visible while work is happening.</span></div>
+            <div class="loop-step"><strong>Govern</strong><span>The system preserves policy context, reasoning boundaries, and evidence references.</span></div>
+            <div class="loop-step"><strong>Review</strong><span>Humans inspect evidence, evaluate outputs, and intervene when needed.</span></div>
+            <div class="loop-step"><strong>Learn</strong><span>Mission Twin turns completed work into replayable learning objects.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark" id="mission-twin">
+        <div class="slide-number">05 / Mission Twin</div>
+        <div class="frame-label">New layer</div>
+        <div class="slide-inner split-grid">
+          <div>
+            <p class="eyebrow">Currently in active build</p>
+            <h2>A mission should become memory, not just a log.</h2>
+            <p class="body-copy">Mission Twin extends Agentic Mode by turning completed missions into replayable learning objects. It is being built to preserve objectives, routing choices, evidence, decision provenance, bounded step-level credit, controlled alternatives, and operator-approved learning.</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item"><strong>Now</strong><span>Mission Twin foundations are being connected into the ZéNí loop.</span></div>
+            <div class="timeline-item"><strong>Next build</strong><span>First usable replay layer outside of maintenance and general product hardening.</span></div>
+            <div class="timeline-item"><strong>Next proof</strong><span>Show that an approved learning from one mission improves a later comparable mission without silently changing production policy.</span></div>
+          </div>
+        </div>
+        <div class="full-bleed-word">memory</div>
+      </section>
+
+      <section class="slide" id="climate">
+        <div class="slide-number">06 / Climate Relevance</div>
+        <div class="frame-label">Climate Circle fit</div>
+        <div class="slide-inner two-grid">
+          <div>
+            <p class="eyebrow">Primary climate area: Other</p>
+            <h2>Sustainable AI infrastructure.</h2>
+            <p class="body-copy">ZéNí is not traditional emissions reduction hardware and it is not climate adaptation software. Its climate relevance is in making AI operations less wasteful: smarter routing, better model allocation, reusable evidence, fewer redundant high-compute runs, and more disciplined human review.</p>
+            <div class="tag-cloud">
+              <span class="tag">Efficient computing</span>
+              <span class="tag">AI governance</span>
+              <span class="tag">Model allocation</span>
+              <span class="tag">Evidence reuse</span>
+              <span class="tag">Green IT</span>
+            </div>
+          </div>
+          <div class="quote-band">
+            <p>If AI usage keeps growing, the operating layer has to make every run more accountable, reusable, and efficient.</p>
+            <div class="caption">Climate relevance will be validated through pilot metrics, not overclaimed before measurement.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark" id="proof">
+        <div class="slide-number">07 / Proof So Far</div>
+        <div class="frame-label">Built, tested, learning</div>
+        <div class="slide-inner">
+          <div>
+            <p class="eyebrow">Product proof before market proof</p>
+            <h2>The infrastructure is real. The pilot proof is next.</h2>
+            <p class="dek">ZéNí is pre-revenue and pre-pilot, but the work is beyond a concept: live product surfaces, routing infrastructure, evidence records, and Mission Twin foundations are already being exercised and hardened.</p>
+          </div>
+          <div class="evidence-grid">
+            <div class="evidence-tile"><b>Live</b><span>PitStop, SideQuest, and ZéNí run as distinct product surfaces in pre-pilot operation.</span></div>
+            <div class="evidence-tile"><b>97 / 97</b><span>SideQuest tests passed on a clean data directory after store-write serialization and agent-pool modularization.</span></div>
+            <div class="evidence-tile"><b>Guarded</b><span>PitStop web build, browser bundle guard, and public operator/session extraction passed focused validation.</span></div>
+            <div class="evidence-tile"><b>Public</b><span>This repository carries the public thesis, glossary, FAQ, and current cinematic editorial pitch deck.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" id="market">
+        <div class="slide-number">08 / Market Wedge</div>
+        <div class="frame-label">Where ZéNí starts</div>
+        <div class="slide-inner split-grid">
+          <div>
+            <p class="eyebrow">Start where proof matters</p>
+            <h2>Decision-sensitive AI work.</h2>
+            <p class="body-copy">The first wedge is teams that produce research, strategy, diligence, operations, investor, customer, or internal decision packets where outputs need evidence, review, accountability, and repeatability.</p>
+          </div>
+          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+            <article class="card kicker-blue"><span class="mini-label">Initial users</span><h3>Consulting, research, strategy, diligence, operations</h3><p>Teams that need speed but cannot accept black-box output as the final source of truth.</p></article>
+            <article class="card kicker-green"><span class="mini-label">Pilot metrics</span><h3>Time, evidence, review, repeat usage, willingness to pay</h3><p>Measure whether users reach decision-grade outputs faster with less redundant work.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark">
+        <div class="slide-number">09 / Moat</div>
+        <div class="frame-label">Defensibility</div>
+        <div class="slide-inner two-grid">
+          <div>
+            <p class="eyebrow">Not another wrapper</p>
+            <h2>The moat is the governed loop.</h2>
+            <p class="body-copy">ZéNí’s edge is not a single dashboard, prompt, or audit log. It is the integrated record of intent, routing, model selection, skill use, evidence, operator review, outcomes, and approved learning.</p>
+          </div>
+          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+            <article class="card kicker-gold"><span class="mini-label">Compounding memory</span><h3>Every mission can improve the next one</h3><p>Mission Twin turns histories into comparable learning objects instead of dead archives.</p></article>
+            <article class="card kicker-violet"><span class="mini-label">Governed autonomy</span><h3>Improvement stays inspectable</h3><p>Operator approval and reasoning boundaries prevent silent system drift.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" id="roadmap">
+        <div class="slide-number">10 / Six-Month Milestones</div>
+        <div class="frame-label">Execution plan</div>
+        <div class="slide-inner split-grid">
+          <div>
+            <p class="eyebrow">What happens next</p>
+            <h2>Move from product proof to pilot proof.</h2>
+            <p class="body-copy">The next six months are about completing the first usable Mission Twin layer, validating the wedge with real users, and translating pilot results into a repeatable commercial package.</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item"><strong>Complete Mission Twin v1</strong><span>Connect replayable mission memory to Agentic Mode, evidence, routing history, and operator review.</span></div>
+            <div class="timeline-item"><strong>Run structured pilots</strong><span>Test with teams doing evidence-sensitive AI work and measure time, review burden, evidence completeness, and repeat usage.</span></div>
+            <div class="timeline-item"><strong>Package the venture</strong><span>Create onboarding, demo workflow, pricing hypothesis, and at least one paid pilot, LOI, or formal pilot agreement.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark">
+        <div class="slide-number">11 / Ask</div>
+        <div class="frame-label">Harvard Climate Entrepreneurship Circle</div>
+        <div class="slide-inner hero-grid">
+          <div>
+            <p class="eyebrow">Why this accelerator</p>
+            <h2>Help ZéNí prove efficient AI operations as climate-relevant infrastructure.</h2>
+            <p class="dek">The program can help pressure-test the climate thesis, define measurable impact metrics, refine the pilot wedge, and move ZéNí from technical prototype toward accountable adoption.</p>
+          </div>
+          <div class="closing-panel">
+            <dl>
+              <dt>Founder</dt><dd>Kelisi Ananke</dd>
+              <dt>Affiliation</dt><dd>Harvard Master in Design Engineering ecosystem</dd>
+              <dt>Venture stage</dt><dd>User Validation</dd>
+              <dt>Seeking</dt><dd>Climate impact framing, mentors, pilots, go-to-market discipline, and measurable efficiency proof.</dd>
+            </dl>
+          </div>
+        </div>
+        <div class="full-bleed-word">trust</div>
+      </section>
+    </main>
+
+    <p class="print-note">Tip: open in browser and print to PDF using landscape for a slide-style deck.</p>
+  </div>
+</body>
+</html>

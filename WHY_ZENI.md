@@ -67,9 +67,9 @@ If this argument compels you and you would like to learn more, the relevant path
 - **Investors** — outreach via the channels listed in [About ZéNí](ABOUT_ZENI.md).
 - **Prospective pilot customers** — same.
 - **Press and analysts** — same.
-- **Engineers curious about the concepts** — we are publishing essays here. The implementation is closed for the time being. As the venture matures, narrow open-source moves are planned for specific protocol-adjacent components.
+- **Engineers curious about the concepts** — start with the essays, glossary, FAQ, and current public deck. As the venture matures, narrow public software releases may make sense for specific protocol-adjacent components.
 
-The implementation is private. The thesis is not.
+The thesis is public. The work is operational.
 
 ---
 

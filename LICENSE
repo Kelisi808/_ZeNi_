@@ -6,19 +6,18 @@ This repository contains editorial and informational material describing the
 ZéNí venture. The text in this repository is published for visitor education
 and not licensed for redistribution, derivative works, or commercial reuse.
 
-The ZéNí implementation (the source code for PitStop, SideQuest, and the
-ZéNí trust fabric) is not part of this repository. The implementation is
-maintained in private repositories under their own access policy and is not
-licensed for any external use.
+The ZéNí product source for PitStop, SideQuest, and the ZéNí trust fabric is
+not part of this repository. Those product assets are maintained separately
+under their own access policy and are not licensed for any external use.
 
 If you would like to reference, quote, or excerpt material from this
 repository for journalism, academic writing, analyst coverage, or similar
 non-commercial purposes, contact the founder through the channels listed in
-docs/ABOUT.md.
+ABOUT_ZENI.md.
 
 "ZéNí" and the ZéNí pipeline product names (PitStop, SideQuest) are
 trademarks of the founder. Unauthorized use of the names or the visual
 identity is not permitted.
 
-This notice is intentionally restrictive. The thesis is open; the assets
-are not.
+This notice is intentionally restrictive. The thesis is public; the product
+assets are not licensed here.

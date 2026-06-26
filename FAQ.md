@@ -8,15 +8,15 @@ Common questions from visitors, investors, journalists, prospective collaborator
 
 **Is this the ZéNí product?**
 
-This is the public editorial home for ZéNí — a place to understand the ideas, vocabulary, and vision behind the venture. The product systems are developed separately. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
+This is the public editorial home for ZéNí — a place to understand the ideas, vocabulary, and vision behind the venture. It is the context layer, not a source-code distribution. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
 
 **Is ZéNí open source?**
 
-The implementation is currently private. Specific protocol-adjacent components may be open-sourced after the venture's first pilot, but the core product is not an open-source project today.
+This repository is open for reading, reference, and public context. It is not structured as an open-source product repository today. If specific protocol-adjacent components are released later, they will be introduced with their own contribution paths.
 
 **Why publish this repository at all?**
 
-The conceptual ground covered here — the case for the Agentic Web, the role of MCP, why coordination is the bottleneck — is genuinely valuable as widely-shared public knowledge. Curious people deserve a way to engage with the venture's ideas without waiting for a product to exist publicly.
+The conceptual ground covered here — the case for the Agentic Web, the role of MCP, why coordination is the bottleneck — is genuinely valuable as widely shared public knowledge. Curious people deserve a way to engage with the venture's ideas, vocabulary, and current public materials.
 
 This repository is the path for that engagement.
 
@@ -30,9 +30,9 @@ For non-commercial purposes — journalism, academic writing, analyst coverage, 
 
 **What is ZéNí?**
 
-ZéNí is an editorial and infrastructure vision for the Agentic Web: a future where AI agents, tools, humans, and protocols need shared systems of coordination, evidence, governance, and trust.
+ZéNí is building governed coordination for autonomous agent teams: a future where AI agents, tools, humans, and protocols need shared systems of coordination, evidence, governance, and trust.
 
-In concrete terms, it ships as three live products that hold three corners of that coordination layer. The product roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md).
+In concrete terms, it ships as three live products in pre-pilot operation: PitStop as the human command surface, SideQuest as the machine routing and accountability layer, and ZéNí as the trust fabric connecting them. The product roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md).
 
 **What problem does ZéNí solve?**
 
@@ -114,7 +114,7 @@ Same channel. The current state of the venture is pre-pilot, so the conversation
 
 **I want to write about ZéNí — what's appropriate?**
 
-The conceptual material in this repository is publicly quotable with attribution. The venture's positioning, the manifesto, the educational explainers — those are all on the record. For interviews, specific implementation details, financials, customer/partner identities, or any non-public information, please request a conversation through the founder's channels rather than inferring or guessing.
+The conceptual material in this repository is publicly quotable with attribution. The venture's positioning, the manifesto, the educational explainers, and the current public deck are on the record. For interviews, financials, customer or partner references, and roadmap-sensitive questions, request a conversation through the founder's channels rather than inferring or guessing.
 
 **I'm a developer interested in contributing — is that possible?**
 
@@ -128,7 +128,7 @@ When public software components ship in the future, they will have their own con
 
 **Will there be open-source releases?**
 
-Specific protocol-adjacent components are planned for open-source release after the venture's first pilot. The components that make the most sense to open-source are the ones that benefit the broader ecosystem more than they benefit the venture's defensibility — things like an agent schema definition, a UI kit for agentic-mode visualization, or an MCP server template. The core implementation will remain closed.
+Possibly, but not as a promise in advance of the right use case. The components that make the most sense to release publicly are the ones that benefit the broader ecosystem without weakening the venture's defensibility — for example, an agent schema definition, a UI kit for agentic-mode visualization, or an MCP server template.
 
 **Will this public repository grow?**
 
@@ -136,9 +136,9 @@ Yes. As the venture matures, additional essays, glossary entries, and educationa
 
 **Where is the venture now and where is it going?**
 
-The venture is currently in pre-pilot operation. The pipeline of three live products exists and is reachable; private demonstration is available on request. The near-term focus is first pilot deployment with a serious operational partner. The long-term focus is the coordination layer for the agentic ecosystem.
+The venture is currently in pre-pilot operation. The pipeline of three live products exists and is reachable; demonstration is available on request. The near-term focus is first pilot deployment with a serious operational partner. The long-term focus is the coordination layer for the agentic ecosystem.
 
-The shape of the answer to "where is it going" is articulated in the [Manifesto](MANIFESTO.md) and the [Why ZéNí](WHY_ZENI.md) page. The specific timeline is held privately because it is operationally sensitive.
+The shape of the answer to "where is it going" is articulated in the [Manifesto](MANIFESTO.md), the [Why ZéNí](WHY_ZENI.md) page, and the [Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html).
 
 ---
 

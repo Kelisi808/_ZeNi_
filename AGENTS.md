@@ -6,7 +6,7 @@
 
 ## What this repository is
 
-The `_ZeNi_` repository is the **public editorial home** for the ZéNí venture. It is intentionally separate from the private repositories that hold the implementation. Everything here is meant to be read by curious visitors — developers, students, journalists, investors, prospective collaborators — and to leave them with sharper understanding of agentic AI, the Agentic Web, MCP, coordination, governance, and evidence.
+The `_ZeNi_` repository is the **public editorial home** for the ZéNí venture. It is intentionally separate from the product working trees. Everything here is meant to be read by curious visitors — developers, students, journalists, investors, prospective collaborators — and to leave them with sharper understanding of agentic AI, the Agentic Web, MCP, coordination, governance, and evidence.
 
 You are working on the venture's public voice. Treat that responsibility seriously.
 
@@ -23,13 +23,13 @@ The tone of the existing essays is editorial-grade — declarative sentences, de
 
 ## What does not belong here
 
-The line between this repository and the private working trees is deliberately strict. Do not add:
+The line between this repository and the product working trees is deliberately strict. Do not add:
 
-- Private source code or partial source fragments.
+- Product source code or partial source fragments.
 - Internal architecture diagrams, schemas, store layouts, API contracts.
 - Proprietary routing logic, model allocation specifics, or other implementation mechanics.
 - Internal strategy memos, post-mortems, or decision documents.
-- The private architecture kit or any of its contents.
+- Architecture-kit materials or any of their contents.
 - Roadmaps with dates, dependencies, or commitment language.
 - Secrets, credentials, deployment configurations, environment variables, or local file paths.
 - Customer, partner, or investor identities, conversation transcripts, or any non-public detail of a relationship.
@@ -53,13 +53,13 @@ If you cannot decide whether a piece of content belongs, ask:
 
 > Would a curious reader — not connected to the venture — be **better off** for having read this, **even if they never engage with the venture afterward**?
 
-If the answer is yes, the content is appropriate. If the answer is no, or if the value is only legible to someone already inside the venture, the content belongs in a private repository.
+If the answer is yes, the content is appropriate. If the answer is no, or if the value is only legible to someone already inside the venture, the content belongs in a product working tree.
 
 ## Practical pointers
 
 - The repository's reading distances are documented in [REPO_STRUCTURE.md](REPO_STRUCTURE.md). When adding content, decide where it sits on that ladder (manifesto → essay → primer → reference) and write to that distance.
 - Cross-link new content from the README and from related essays. The repository is a deliberate network, not a flat folder of files.
 - For new languages or large editorial expansions, follow the precedent set in [`Language Options/`](Language%20Options/) — hand-written summaries, not machine-translated stubs.
-- The implementation is private. The thesis is not. Hold that boundary in every edit.
+- The thesis is public. The work is operational. Hold that boundary in every edit.
 
-The goal is to help visitors understand why ZéNí matters without exposing how the private ZéNí system is built.
+The goal is to help visitors understand why ZéNí matters without turning this public context layer into internal system documentation.

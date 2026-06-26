@@ -4,7 +4,7 @@ This repository is the public editorial home for ZéNí.
 
 It is designed to introduce the ideas behind ZéNí — Agentic AI, the Agentic Web, MCP, coordination, governance, evidence, and trust in AI-agent systems.
 
-This repository does not represent the full private product implementation. It is intended for public learning, orientation, and brand context rather than production source code or internal system documentation.
+This repository is the public context layer for the venture. It is intended for learning, orientation, and brand context rather than production source distribution or internal system documentation.
 
 ---
 
@@ -12,7 +12,7 @@ This repository does not represent the full private product implementation. It i
 
 This is the public-facing knowledge and editorial repository for ZéNí. It exists to help visitors understand the ideas, vocabulary, and vision behind the ZéNí ecosystem.
 
-The private product systems are developed separately. This repository focuses on education, positioning, and public context.
+The product surfaces and public editorial layer move together. This repository focuses on education, positioning, public context, and materials that help visitors understand the venture at the right altitude.
 
 ## What you'll find here
 
@@ -23,6 +23,7 @@ A short reading path:
 - **[Agentic AI](AGENTIC_AI.md)** · **[The Agentic Web](AGENTIC_WEB.md)** · **[Why MCP matters](WHY_MCP_MATTERS.md)** — the educational essays
 - **[Why ZéNí, why now](WHY_ZENI.md)** — the positioning
 - **[Glossary](GLOSSARY.md)** · **[FAQ](FAQ.md)** — reference material
+- **[Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html)** — the current public deck
 
 ## A note on use
 
