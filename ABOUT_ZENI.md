@@ -36,7 +36,7 @@ ZéNí is a coordination infrastructure venture in pre-pilot operation. The syst
 
 The pipeline is live in pre-pilot operation. Demonstration is available on request through the channels below.
 
-The public deck is available here: [ZéNí Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html).
+The public deck is available here: [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html).
 
 ---
 
@@ -72,7 +72,7 @@ GitHub: <https://github.com/Kelisi808>
 |---|---|
 | Stage | Pre-pilot |
 | Pipeline | Three live products in operation; demonstration available on request |
-| Public materials | Editorial essays, glossary, FAQ, public repository note, and current cinematic editorial pitch deck |
+| Public materials | Editorial essays, glossary, FAQ, public repository note, and current ZéNí Pitch Deck |
 | Hiring | Not actively hiring engineering. Selectively in conversation with prospective design and operations collaborators. |
 | Investment | In conversation. Outreach welcome. |
 

@@ -52,7 +52,7 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[Trust and Governance](TRUST_AND_GOVERNANCE.md)** | Why trust and governance must be structural properties of agentic systems — not bolt-on features. |
 | **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
-| **[Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html)** | A browser-readable public deck summarizing the current venture frame. |
+| **[ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** | A browser-readable public deck summarizing the current venture frame. |
 | **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
 
 For a map of every file in the repository (including the language summaries and reading paths), see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.

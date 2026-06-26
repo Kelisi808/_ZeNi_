@@ -12,8 +12,7 @@ _ZeNi_/
   TRUST_AND_GOVERNANCE.md            ← trust and governance as structural properties
   GLOSSARY.md                        ← working vocabulary, conceptually ordered
   FAQ.md                             ← visitor + investor questions
-  ZéNí_CINEMATIC_EDITORIAL_PITCHDECK.html
-                                      ← current public cinematic editorial deck
+  ZéNí Pitch Deck.html                ← current public pitch deck
   PUBLIC_REPOSITORY_NOTE.md          ← how this repo fits into the broader ZéNí ecosystem
   SOURCES.md                         ← further reading on MCP and related concepts
   CONTRIBUTING.md                    ← contribution guidance for the editorial layer
@@ -37,7 +36,7 @@ _ZeNi_/
 
 If you are a **first-time visitor**, three paths work:
 
-- **The fast scan** — read the [README](README.md), then the [Manifesto](MANIFESTO.md), then open the [Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html). Five to seven minutes.
+- **The fast scan** — read the [README](README.md), then the [Manifesto](MANIFESTO.md), then open the [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html). Five to seven minutes.
 - **The conceptual tour** — read in order: [Agentic AI](AGENTIC_AI.md) → [The Agentic Web](AGENTIC_WEB.md) → [Why MCP matters](WHY_MCP_MATTERS.md) → [Trust and Governance](TRUST_AND_GOVERNANCE.md) → [Why ZéNí, why now](WHY_ZENI.md). Twenty-five minutes. Leaves you with a working mental model of the next decade of software.
 - **The reference scan** — start at the [Glossary](GLOSSARY.md) for vocabulary, then the [FAQ](FAQ.md) for direct answers. For analysts and journalists.
 

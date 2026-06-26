@@ -138,7 +138,7 @@ Yes. As the venture matures, additional essays, glossary entries, and educationa
 
 The venture is currently in pre-pilot operation. The pipeline of three live products exists and is reachable; demonstration is available on request. The near-term focus is first pilot deployment with a serious operational partner. The long-term focus is the coordination layer for the agentic ecosystem.
 
-The shape of the answer to "where is it going" is articulated in the [Manifesto](MANIFESTO.md), the [Why ZéNí](WHY_ZENI.md) page, and the [Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html).
+The shape of the answer to "where is it going" is articulated in the [Manifesto](MANIFESTO.md), the [Why ZéNí](WHY_ZENI.md) page, and the [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html).
 
 ---
 

@@ -23,7 +23,7 @@ A short reading path:
 - **[Agentic AI](AGENTIC_AI.md)** · **[The Agentic Web](AGENTIC_WEB.md)** · **[Why MCP matters](WHY_MCP_MATTERS.md)** — the educational essays
 - **[Why ZéNí, why now](WHY_ZENI.md)** — the positioning
 - **[Glossary](GLOSSARY.md)** · **[FAQ](FAQ.md)** — reference material
-- **[Cinematic Editorial Pitch Deck](Z%C3%A9N%C3%AD_CINEMATIC_EDITORIAL_PITCHDECK.html)** — the current public deck
+- **[ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — the current public deck
 
 ## A note on use
 
