@@ -121,6 +121,7 @@ De fulde engelske essays ligger i repositoriet:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — hvorfor ZéNí, hvorfor nu
 - **[GLOSSARY.md](../GLOSSARY.md)** — ordliste
 - **[FAQ.md](../FAQ.md)** — ofte stillede spørgsmål
+- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — det aktuelle offentlige pitch deck
 
 > _"Det næste vigtige spørgsmål i AI er ikke intelligens.
 > Det er, hvordan intelligens bliver brugbar, koordineret og troværdig i rigtigt arbejde."_

@@ -121,6 +121,7 @@ Die vollständigen englischen Essays liegen im Repository:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — warum ZéNí, warum jetzt
 - **[GLOSSARY.md](../GLOSSARY.md)** — Glossar
 - **[FAQ.md](../FAQ.md)** — häufige Fragen
+- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — das aktuelle öffentliche Pitch Deck
 
 > _„Die nächste wichtige Frage in der KI ist nicht mehr die Intelligenz.
 > Es ist die Frage, wie Intelligenz nutzbar, koordiniert und vertrauenswürdig im echten Arbeitsalltag wird."_

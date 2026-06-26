@@ -3,7 +3,7 @@
 > ZéNí existe porque el próximo problema de la IA ya no es solo la inteligencia.
 > Es hacer que la inteligencia sea **utilizable, coordinada y digna de confianza en el trabajo real.**
 
-Este repositorio es el **hogar editorial público** de ZéNí. Existe para ayudar a los visitantes —desarrolladores curiosos, socios potenciales, periodistas, estudiantes, inversionistas— a entender la visión y el posicionamiento de ZéNí, sin exponer ninguna línea de la implementación privada. Este resumen en español está pensado para sostenerse por sí mismo: tras leerlo, saldrás con una comprensión clara de qué es ZéNí, qué problema atiende y por qué interviene en un momento pivotal del desarrollo de la IA.
+Este repositorio es el **hogar editorial público** de ZéNí. Existe para ayudar a los visitantes —desarrolladores curiosos, socios potenciales, periodistas, estudiantes, inversionistas— a entender la visión, el posicionamiento y los materiales públicos de ZéNí. Este resumen en español está pensado para sostenerse por sí mismo: tras leerlo, saldrás con una comprensión clara de qué es ZéNí, qué problema atiende y por qué interviene en un momento pivotal del desarrollo de la IA.
 
 ---
 
@@ -95,7 +95,7 @@ Este repositorio es la **cara pública** de ZéNí. Es un artefacto de educació
 
 Contiene: ensayos sobre la IA agéntica, la Web agéntica, MCP; un manifiesto; un glosario y una FAQ; los datos de contacto de la fundadora. Todo aquí está pensado para ser citable, compartible y útil para un visitante que quiere entender.
 
-Los sistemas del producto privado se desarrollan por separado. Este repositorio se concentra en educación, posicionamiento y contexto público.
+Los sistemas de producto y la capa editorial pública evolucionan en paralelo. Este repositorio se concentra en educación, posicionamiento, contexto público y los materiales públicos actuales.
 
 ---
 
@@ -121,6 +121,7 @@ Los ensayos completos en inglés viven en el repositorio:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — por qué ZéNí, por qué ahora
 - **[GLOSSARY.md](../GLOSSARY.md)** — glosario
 - **[FAQ.md](../FAQ.md)** — preguntas frecuentes
+- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — el pitch deck público actual
 
 > _"La próxima pregunta importante en IA no es la inteligencia.
 > Es cómo hacer que la inteligencia sea utilizable, coordinada y digna de confianza en el trabajo real."_
