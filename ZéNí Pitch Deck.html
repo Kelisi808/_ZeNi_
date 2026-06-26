@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ZéNí pitch deck: trustworthy autonomous work, efficient AI operations, PitStop, SideQuest, Agentic Mode, and Mission Twin." />
+  <meta name="description" content="ZéNí pitch deck: trustworthy autonomous work, efficient AI operations, PitStop, SideQuest, governed coordination, and evidence-backed agent work." />
   <title>ZéNí | Pitch Deck</title>
   <style>
     :root {
@@ -272,6 +272,14 @@
       align-items: stretch;
     }
 
+    .stacked-card-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      min-height: 0;
+      align-self: stretch;
+    }
+
     .two-grid {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       align-items: stretch;
@@ -413,7 +421,7 @@
 
     .card {
       position: relative;
-      min-height: 100%;
+      min-height: 0;
       padding: clamp(22px, 2.7vw, 36px);
       border: 1px solid rgba(23, 18, 13, 0.14);
       background: rgba(255, 250, 241, 0.56);
@@ -441,6 +449,22 @@
       margin-bottom: 0;
     }
     .dark .card p { color: rgba(246, 239, 227, 0.70); }
+
+    .stacked-card-grid .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: clamp(18px, 2.2vw, 30px);
+      overflow: hidden;
+    }
+    .stacked-card-grid .card h3 {
+      font-size: clamp(24px, 2.6vw, 44px);
+      line-height: 1.02;
+    }
+    .stacked-card-grid .card p {
+      font-size: clamp(13px, 1.15vw, 16px);
+      line-height: 1.45;
+    }
 
     .mini-label {
       display: inline-flex;
@@ -619,6 +643,15 @@
       font-size: 13px;
       line-height: 1.45;
     }
+    .evidence-tile a {
+      color: var(--blue-hi);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    .evidence-tile a:hover, .evidence-tile a:focus-visible {
+      text-decoration: underline;
+      outline: none;
+    }
 
     .tag-cloud {
       display: flex;
@@ -749,7 +782,7 @@
         <a href="#market">Market</a>
         <a href="#roadmap">Roadmap</a>
       </nav>
-      <div class="deck-meta">Climate Circle Edition · 2026</div>
+      <div class="deck-meta">PITCH DECK · 2026</div>
     </header>
 
     <main class="slides">
@@ -761,10 +794,10 @@
             <p class="eyebrow">ZéNí · Trustworthy autonomous work</p>
             <h1>Make intelligence operable.</h1>
             <p class="dek">ZéNí is the operating layer for trustworthy autonomous work, turning governed agent execution into decision-grade outcomes.</p>
-            <p class="hero-statement">The venture is building a governed infrastructure system across PitStop, SideQuest, Agentic Mode, and Mission Twin so AI work can be routed, reviewed, evidenced, reused, and improved instead of repeatedly regenerated from scratch.</p>
+            <p class="hero-statement">The venture is building a governed infrastructure system across PitStop and SideQuest so AI work can be routed, reviewed, evidenced, reused, and improved instead of repeatedly regenerated from scratch.</p>
           </div>
           <aside class="metric-stack" aria-label="Venture facts">
-            <div class="metric"><b>01</b><span>Sole founder: Kelisi Ananke, Harvard Master in Design Engineering ecosystem.</span></div>
+            <div class="metric"><b>01</b><span>Founder: Kelisi. Harvard MDE · MIT AI Studio.</span></div>
             <div class="metric"><b>User Validation</b><span>Built product infrastructure and moving toward structured pilots.</span></div>
             <div class="metric"><b>Other</b><span>Primary climate area: sustainable AI infrastructure and efficient computing.</span></div>
           </aside>
@@ -788,7 +821,7 @@
         </div>
       </section>
 
-      <section class="slide">
+      <section class="slide" id="consequence">
         <div class="slide-number">02 / Consequence</div>
         <div class="frame-label">Why it matters</div>
         <div class="slide-inner two-grid">
@@ -797,7 +830,7 @@
             <h2>Every hidden decision becomes a future liability.</h2>
             <p class="body-copy">When autonomous work lacks an execution record, teams hesitate to delegate more responsibility. They manually verify outputs, repeat similar prompts, rerun expensive models, and lose the chance to learn from what already worked.</p>
           </div>
-          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+          <div class="wide-grid stacked-card-grid">
             <article class="card kicker-rust">
               <span class="mini-label">Trust loss</span>
               <h3>Review burden grows</h3>
@@ -868,7 +901,7 @@
             <p class="body-copy">Mission Twin extends Agentic Mode by turning completed missions into replayable learning objects. It is being built to preserve objectives, routing choices, evidence, decision provenance, bounded step-level credit, controlled alternatives, and operator-approved learning.</p>
           </div>
           <div class="timeline">
-            <div class="timeline-item"><strong>Now</strong><span>Mission Twin foundations are being connected into the ZéNí loop.</span></div>
+            <div class="timeline-item"><strong>Now</strong><span>Agentic Mode is the live mission view; Mission Twin is the replay and memory layer inside it, preserving approved lessons from completed work.</span></div>
             <div class="timeline-item"><strong>Next build</strong><span>First usable replay layer outside of maintenance and general product hardening.</span></div>
             <div class="timeline-item"><strong>Next proof</strong><span>Show that an approved learning from one mission improves a later comparable mission without silently changing production policy.</span></div>
           </div>
@@ -889,12 +922,10 @@
               <span class="tag">AI governance</span>
               <span class="tag">Model allocation</span>
               <span class="tag">Evidence reuse</span>
-              <span class="tag">Green IT</span>
             </div>
           </div>
           <div class="quote-band">
             <p>If AI usage keeps growing, the operating layer has to make every run more accountable, reusable, and efficient.</p>
-            <div class="caption">Climate relevance will be validated through pilot metrics, not overclaimed before measurement.</div>
           </div>
         </div>
       </section>
@@ -909,10 +940,10 @@
             <p class="dek">ZéNí is pre-revenue and pre-pilot, but the work is beyond a concept: live product surfaces, routing infrastructure, evidence records, and Mission Twin foundations are already being exercised and hardened.</p>
           </div>
           <div class="evidence-grid">
-            <div class="evidence-tile"><b>Live</b><span>PitStop, SideQuest, and ZéNí run as distinct product surfaces in pre-pilot operation.</span></div>
+            <div class="evidence-tile"><b>Live</b><span>PitStop, SideQuest, and ZéNí run as distinct product surfaces in pre-pilot operation, with MCP-facing function for governed agent capability exchange.</span></div>
             <div class="evidence-tile"><b>97 / 97</b><span>SideQuest tests passed on a clean data directory after store-write serialization and agent-pool modularization.</span></div>
             <div class="evidence-tile"><b>Guarded</b><span>PitStop web build, browser bundle guard, and public operator/session extraction passed focused validation.</span></div>
-            <div class="evidence-tile"><b>Public</b><span>This repository carries the public thesis, glossary, FAQ, and current ZéNí Pitch Deck.</span></div>
+            <div class="evidence-tile"><b>GitHub</b><span>Public repository: <a href="https://github.com/Kelisi808/_ZeNi_">github.com/Kelisi808/_ZeNi_</a></span></div>
           </div>
         </div>
       </section>
@@ -926,14 +957,14 @@
             <h2>Decision-sensitive AI work.</h2>
             <p class="body-copy">The first wedge is teams that produce research, strategy, diligence, operations, investor, customer, or internal decision packets where outputs need evidence, review, accountability, and repeatability.</p>
           </div>
-          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+          <div class="wide-grid stacked-card-grid">
             <article class="card kicker-blue"><span class="mini-label">Initial users</span><h3>Consulting, research, strategy, diligence, operations</h3><p>Teams that need speed but cannot accept black-box output as the final source of truth.</p></article>
             <article class="card kicker-green"><span class="mini-label">Pilot metrics</span><h3>Time, evidence, review, repeat usage, willingness to pay</h3><p>Measure whether users reach decision-grade outputs faster with less redundant work.</p></article>
           </div>
         </div>
       </section>
 
-      <section class="slide dark">
+      <section class="slide dark" id="moat">
         <div class="slide-number">09 / Moat</div>
         <div class="frame-label">Defensibility</div>
         <div class="slide-inner two-grid">
@@ -942,7 +973,7 @@
             <h2>The moat is the governed loop.</h2>
             <p class="body-copy">ZéNí’s edge is not a single dashboard, prompt, or audit log. It is the integrated record of intent, routing, model selection, skill use, evidence, operator review, outcomes, and approved learning.</p>
           </div>
-          <div class="wide-grid" style="grid-template-columns: 1fr; gap: 14px;">
+          <div class="wide-grid stacked-card-grid">
             <article class="card kicker-gold"><span class="mini-label">Compounding memory</span><h3>Every mission can improve the next one</h3><p>Mission Twin turns histories into comparable learning objects instead of dead archives.</p></article>
             <article class="card kicker-violet"><span class="mini-label">Governed autonomy</span><h3>Improvement stays inspectable</h3><p>Operator approval and reasoning boundaries prevent silent system drift.</p></article>
           </div>
@@ -966,7 +997,7 @@
         </div>
       </section>
 
-      <section class="slide dark">
+      <section class="slide dark" id="ask">
         <div class="slide-number">11 / Ask</div>
         <div class="frame-label">Harvard Climate Entrepreneurship Circle</div>
         <div class="slide-inner hero-grid">
@@ -977,10 +1008,10 @@
           </div>
           <div class="closing-panel">
             <dl>
-              <dt>Founder</dt><dd>Kelisi Ananke</dd>
-              <dt>Affiliation</dt><dd>Harvard Master in Design Engineering ecosystem</dd>
+              <dt>Founder</dt><dd>Kelisi</dd>
+              <dt>Affiliation</dt><dd>Harvard MDE<br>MIT AI Studio</dd>
               <dt>Venture stage</dt><dd>User Validation</dd>
-              <dt>Seeking</dt><dd>Climate impact framing, mentors, pilots, go-to-market discipline, and measurable efficiency proof.</dd>
+              <dt>Seeking</dt><dd>Mentors, credits, grants, scholarships, and angel funding.</dd>
             </dl>
           </div>
         </div>
