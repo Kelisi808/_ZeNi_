@@ -110,7 +110,7 @@ Through the founder's LinkedIn, with a short note indicating the nature of the c
 
 **I'm a prospective pilot customer — how do I engage?**
 
-Same channel. The current state of the venture is pre-pilot, so the conversation is exploratory rather than transactional. We are selective about pilots because each one shapes the implementation in ways that matter.
+Same channel. The current state of the venture is pre-pilot, so the conversation is exploratory rather than transactional. We are selective about pilots because each one shapes the product direction in ways that matter.
 
 **I want to write about ZéNí — what's appropriate?**
 

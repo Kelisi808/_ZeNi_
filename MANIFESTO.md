@@ -129,6 +129,7 @@ That is the worldview ZéNí is built on. The rest of this repository elaborates
 - [About ZéNí](ABOUT_ZENI.md) — the venture, the founder, the contact path
 - [Glossary](GLOSSARY.md) — terms we use
 - [FAQ](FAQ.md) — questions visitors and investors ask
+- [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html) — the current public venture deck
 
 If you walked into this repository as a curious person and you walk out understanding why the coordination layer is the prize, this document did its job.
 
