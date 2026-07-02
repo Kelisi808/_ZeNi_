@@ -50,6 +50,7 @@ The repository is structured as a sequence of essays. You can read them in any o
 | **[Why MCP matters](WHY_MCP_MATTERS.md)** | Model Context Protocol as the railroad gauge of the agentic era. What it gets right, what it deliberately leaves to others. |
 | **[Why ZéNí, why now](WHY_ZENI.md)** | The three-step timing argument and the venture's positioning. |
 | **[Trust and Governance](TRUST_AND_GOVERNANCE.md)** | Why trust and governance must be structural properties of agentic systems — not bolt-on features. |
+| **[Causal Operating System proof](CAUSAL_OPERATING_SYSTEM_PROOF.md)** | A bounded live proof: controlled replay, retained step credit, later comparison, and a learning deliberately kept out of production. |
 | **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
 | **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
 | **[ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** | A browser-readable public deck summarizing the current venture frame. |

@@ -10,6 +10,7 @@ _ZeNi_/
   AGENTIC_WEB.md                     ← the missing infrastructure layer
   WHY_MCP_MATTERS.md                 ← protocols as railroad gauges
   TRUST_AND_GOVERNANCE.md            ← trust and governance as structural properties
+  CAUSAL_OPERATING_SYSTEM_PROOF.md   ← bounded controlled-replay and later-comparison proof
   GLOSSARY.md                        ← working vocabulary, conceptually ordered
   FAQ.md                             ← visitor + investor questions
   ZéNí Pitch Deck.html                ← current public pitch deck
@@ -37,7 +38,7 @@ _ZeNi_/
 If you are a **first-time visitor**, three paths work:
 
 - **The fast scan** — read the [README](README.md), then the [Manifesto](MANIFESTO.md), then open the [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html). Five to seven minutes.
-- **The conceptual tour** — read in order: [Agentic AI](AGENTIC_AI.md) → [The Agentic Web](AGENTIC_WEB.md) → [Why MCP matters](WHY_MCP_MATTERS.md) → [Trust and Governance](TRUST_AND_GOVERNANCE.md) → [Why ZéNí, why now](WHY_ZENI.md). Twenty-five minutes. Leaves you with a working mental model of the next decade of software.
+- **The conceptual tour** — read in order: [Agentic AI](AGENTIC_AI.md) → [The Agentic Web](AGENTIC_WEB.md) → [Why MCP matters](WHY_MCP_MATTERS.md) → [Trust and Governance](TRUST_AND_GOVERNANCE.md) → [Causal Operating System proof](CAUSAL_OPERATING_SYSTEM_PROOF.md) → [Why ZéNí, why now](WHY_ZENI.md). Twenty-five minutes. Leaves you with a working mental model and one bounded operating proof.
 - **The reference scan** — start at the [Glossary](GLOSSARY.md) for vocabulary, then the [FAQ](FAQ.md) for direct answers. For analysts and journalists.
 
 If you prefer a language other than English, the [`Language Options/`](Language%20Options/) folder contains extensive summaries in six languages. The summaries are sufficient on their own — they cover the same ground as the English manifest at a slightly higher altitude.
