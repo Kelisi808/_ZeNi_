@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620" role="img" aria-labelledby="title desc">
+  <title id="title">ZéNí — Autonomous work needs an operating layer</title>
+  <desc id="desc">An editorial-style typographic cover for ZéNí, the operating layer for trustworthy autonomous work.</desc>
+
+  <rect width="1440" height="620" fill="#0c0a08"/>
+  <path d="M0 118H1440M0 520H1440M108 0V620M1062 0V620" stroke="#3b3027" stroke-width="1"/>
+  <path d="M108 118H1062" stroke="#9c4d30" stroke-width="3"/>
+
+  <g fill="#f6efe3">
+    <text x="108" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">ZéNí</text>
+    <text x="1332" y="69" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="2">PUBLIC EDITORIAL / 2026</text>
+  </g>
+
+  <rect x="126" y="158" width="18" height="18" transform="rotate(45 135 167)" fill="#d47a57"/>
+  <text x="168" y="174" fill="#f5c96a" font-family="Consolas, 'Courier New', monospace" font-size="16" letter-spacing="2.4">TRUSTWORTHY AUTONOMOUS WORK</text>
+
+  <text x="126" y="302" fill="#fffaf1" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Autonomous work</text>
+  <text x="126" y="390" fill="#fffaf1" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">needs an operating layer.</text>
+
+  <text x="126" y="472" fill="#cdbda8" font-family="Arial, Helvetica, sans-serif" font-size="23">ZéNí makes agentic work visible enough to govern, inspect, and improve.</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="1.7">
+    <text x="108" y="570" fill="#68d7ff">HUMAN INTENT</text>
+    <text x="332" y="570" fill="#807365">→</text>
+    <text x="378" y="570" fill="#7cf29a">GOVERNED EXECUTION</text>
+    <text x="686" y="570" fill="#807365">→</text>
+    <text x="732" y="570" fill="#c7b5ff">VERIFIABLE OUTCOMES</text>
+  </g>
+
+  <text x="1332" y="568" text-anchor="end" fill="#807365" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="1.4">THE THESIS IS PUBLIC.</text>
+</svg>

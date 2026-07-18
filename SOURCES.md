@@ -8,10 +8,14 @@ We deliberately keep this list short. The goal is to point at the few sources a 
 
 ## Model Context Protocol (MCP)
 
-MCP appears throughout this repository as the most important open standard published in AI in the past three years. If you read only one set of primary sources from this list, read these:
+MCP appears throughout this repository because it is an important open
+connection boundary for AI applications. If you read only one set of primary
+sources from this list, read these:
 
 - **[MCP — Getting Started](https://modelcontextprotocol.io/docs/getting-started/intro)** — The official entry point. Conceptual overview, plus enough detail to understand what the protocol is actually proposing.
 - **[MCP — Specification](https://modelcontextprotocol.io/specification/)** — The formal specification. Read it when you want to know what is and is not in scope at the protocol layer. The boundary between "MCP solves" and "MCP deliberately leaves to the layer above" is the load-bearing distinction in [`WHY_MCP_MATTERS.md`](WHY_MCP_MATTERS.md).
+- **[MCP — Architecture](https://modelcontextprotocol.io/docs/learn/architecture)** — The host, client, and server roles, plus the protocol's capability-negotiation model.
+- **[MCP — Governance](https://modelcontextprotocol.io/community/governance)** — The public governance structure for the evolving project.
 - **[Anthropic — Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)** — The original announcement. Context for why the standard was published openly rather than as a proprietary protocol.
 - **[Model Context Protocol GitHub organization](https://github.com/modelcontextprotocol/modelcontextprotocol)** — The reference implementations, the schema, and the conversation. The protocol is fast-moving; the GitHub organization is the canonical place to track what is current.
 

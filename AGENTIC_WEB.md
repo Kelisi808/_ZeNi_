@@ -72,13 +72,21 @@ Most of these primitives are missing from today's stack. The ones that exist —
 
 Two observations make this urgent:
 
-**The agentic explosion is here.** Every serious software company is now building agents. Frameworks proliferate; demos proliferate; vendor lock-in is starting to harden. Every month that passes without consolidation primitives is a month where companies wire bespoke integrations that they will pay to undo for the next decade.
+**Agentic systems are moving from demonstrations into products.** Frameworks,
+model platforms, protocol projects, and application teams are all testing how
+far autonomous workflows can go. The more capability is connected through
+bespoke interfaces, the more expensive it becomes to change vendors, preserve
+evidence, or govern the whole workflow coherently.
 
 **The economic value is in the layer above the model.** Models are commoditizing. The companies that captured value in the previous platform shifts — application servers, browsers, mobile SDKs, cloud — did so by building the **operational layer** above the commodity. The Agentic Web is the operational layer for AI. We are arguing that the prize sits there.
 
 ## What ZéNí builds, in this frame
 
-If the Agentic Web is the missing layer, ZéNí is one bet on what that layer should look like — assembled from three working products that span discovery, routing, trust, and evidence. Not an exhaustive answer. Not the only answer. But a live product system, in pre-pilot operation today, that takes the primitives above and ships them as something a real operator can use.
+If the Agentic Web is the missing layer, ZéNí is one bet on what that layer
+should look like: a connected system spanning human command, machine
+coordination, governance, and evidence. It is not an exhaustive answer and it is
+not generally available. It is a deployed system now entering structured pilot
+use with startup operators.
 
 Read [Why ZéNí, why now](WHY_ZENI.md) for the timing argument and the positioning.
 

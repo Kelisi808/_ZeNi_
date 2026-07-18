@@ -45,14 +45,18 @@ These are not model problems. They are systems problems. They are the agentic pr
 
 The most common framing error in 2026 is to call any LLM wrapper "agentic" because it can call a tool. Tool-calling is necessary but not sufficient.
 
-A system is meaningfully agentic when it can answer **all** of the following without a human in the loop:
+A system is meaningfully agentic when it can answer **all** of the following
+without requiring a person to manually reconstruct the operating state at every
+step:
 
 - _Who am I asking to do this work?_
 - _Can they actually do it?_
 - _Are they allowed to do it right now?_
 - _What is the receipt going to look like when they are done?_
 
-If the answers come from a human at runtime, you have a sophisticated copilot. You do not have an agent.
+Human approval may still be required for consequential action. The distinction
+is that oversight is an explicit control, not a person secretly acting as the
+missing router, policy engine, and evidence system.
 
 ---
 

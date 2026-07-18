@@ -1,87 +1,130 @@
-<div align="center">
-
-# ZéNí
-
-### _The operating layer for trustworthy autonomous work._
-
-</div>
-
----
-
-> ZéNí exists because the next problem in AI is not only intelligence.
-> It is making intelligence **usable, coordinated, and trustworthy in real work.**
-
----
-
-The internet was built for humans. APIs were built for machines that wait to be called. Neither was built for **autonomous agents that find each other, negotiate work, and leave receipts.** That layer is missing — and it is one reason agentic AI still feels more impressive in demos than in accountable operations.
-
-ZéNí is the operating layer being built for that missing layer.
-
 <p align="center">
-  <img src="zeni-public-layer-diagram.svg" alt="Humans, Agents, and Evidence converge on Operable Intelligence — the layer ZéNí builds." width="100%" />
+  <img src="zeni-editorial-header.svg" alt="ZéNí — Autonomous work needs an operating layer" width="100%" />
 </p>
 
-## 🌐 Read in your language
+<p align="center">
+  <strong>The operating layer for trustworthy autonomous work.</strong><br />
+  Human intent in. Governed execution through. Verifiable outcomes out.
+</p>
 
-Extensive hand-written summaries are available in six languages. Each one is self-sufficient — a reader can understand ZéNí from any single summary without reading the English content.
+<p align="center">
+  <a href="ABOUT_ZENI.md">About</a> ·
+  <a href="MANIFESTO.md">Manifesto</a> ·
+  <a href="https://kelisi808.github.io/_ZeNi_/">Public brief</a> ·
+  <a href="AGENTIC_WEB.md">Agentic Web</a> ·
+  <a href="CAUSAL_OPERATING_SYSTEM_PROOF.md">Bounded proof</a> ·
+  <a href="FAQ.md">FAQ</a>
+</p>
 
-**[中文 (简体)](Language%20Options/SUMMARY.zh-CN.md)** · **[Français](Language%20Options/SUMMARY.fr.md)** · **[Español](Language%20Options/SUMMARY.es.md)** · **[Deutsch](Language%20Options/SUMMARY.de.md)** · **[Dansk](Language%20Options/SUMMARY.da.md)** · **[Ελληνικά](Language%20Options/SUMMARY.el.md)**
+---
 
-The picker page: [Language Options](Language%20Options/).
+## AI can produce. Can it account?
 
-## What this repository is
+Models can answer prompts. Agents can call tools. The harder problem begins
+when autonomous work crosses models, agents, systems, budgets, and approval
+boundaries.
 
-This is the public editorial home for ZéNí. It introduces the venture, the vocabulary around it, and the case for governed coordination across Agentic AI, the Agentic Web, MCP, evidence, and trust in AI-agent systems.
+Who was allowed to act? Why was that route chosen? What happened when the work
+failed? What evidence remains? What, if anything, should the system learn?
 
-The conceptual ground covered here is portable knowledge. Anyone interested in the Agentic Web, MCP, or the future of agentic AI should leave with sharper thinking on those topics, whether they ever engage with the venture or not.
+ZéNí is building the coordination and trust layer that makes those questions
+part of the work itself.
 
-The live product surfaces and the public editorial layer evolve in parallel. This repository is the public context layer: essays, vocabulary, positioning, and the current deck. See the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md) for the framing.
+> A mission should not disappear into an agent run and return as a mysterious
+> answer. It should leave a visible chain of intent, decisions, outcomes, and
+> evidence.
 
-## What to read
+## One system. Three operating surfaces.
 
-The repository is structured as a sequence of essays. You can read them in any order; the recommended path is roughly the order below.
-
-| | |
+| | What it makes legible |
 |---|---|
-| **[Manifesto](MANIFESTO.md)** | The worldview ZéNí is built on. Start here if you want to understand what the venture is fighting for. |
-| **[About ZéNí](ABOUT_ZENI.md)** | The venture, the founder, the contact path. |
-| **[Agentic AI](AGENTIC_AI.md)** | What "agentic" actually means, and why it is structurally different from a smarter chatbot. |
-| **[The Agentic Web](AGENTIC_WEB.md)** | The condition the web takes on when its native participants are autonomous systems. Six primitives the missing layer needs. |
-| **[Why MCP matters](WHY_MCP_MATTERS.md)** | Model Context Protocol as the railroad gauge of the agentic era. What it gets right, what it deliberately leaves to others. |
-| **[Why ZéNí, why now](WHY_ZENI.md)** | The three-step timing argument and the venture's positioning. |
-| **[Trust and Governance](TRUST_AND_GOVERNANCE.md)** | Why trust and governance must be structural properties of agentic systems — not bolt-on features. |
-| **[Causal Operating System proof](CAUSAL_OPERATING_SYSTEM_PROOF.md)** | A bounded live proof: controlled replay, retained step credit, later comparison, and a learning deliberately kept out of production. |
-| **[FAQ](FAQ.md)** | Questions investors, journalists, and visitors typically ask. |
-| **[Glossary](GLOSSARY.md)** | The working vocabulary of the Agentic Web, with definitions written to be educational and portable. |
-| **[ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** | A browser-readable public deck summarizing the current venture frame. |
-| **[Public Repository Note](PUBLIC_REPOSITORY_NOTE.md)** | How this repository fits into the broader ZéNí ecosystem. |
+| **PitStop** | The human command surface: describe missions, review state, intervene, evaluate artifacts, and export results. |
+| **SideQuest** | The machine coordination layer: discover capabilities, route work, govern temporary skill access, and retain outcomes and receipts. |
+| **ZéNí** | The trust fabric across both: governance, evidence standards, readiness, continuity, and learning boundaries. |
 
-For a map of every file in the repository (including the language summaries and reading paths), see **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)**.
+PitStop faces the human. SideQuest faces the machine. ZéNí keeps the operating
+doctrine coherent between them.
 
-## The pipeline, in one sentence
+## The loop is the product.
 
-ZéNí ships as three live products in pre-pilot operation that together hold the corners of the coordination layer: an **operator cockpit** for humans, a **routing and accountability engine** for machines, and a **trust fabric** that connects them. The role each product plays is described in [About ZéNí](ABOUT_ZENI.md).
+| Phase | What becomes visible |
+|---|---|
+| **01 · Describe** | The mission, constraints, and desired outcome. |
+| **02 · Route** | Agents, models, skills, tools, and policy paths. |
+| **03 · Execute** | Current state, bounded authority, and truthful exceptions. |
+| **04 · Review** | Human judgment, requested artifacts, and intervention. |
+| **05 · Evidence** | Receipts, outcomes, and provenance. |
+| **06 · Learn** | Controlled comparison—never silent drift. |
 
-## What you should leave with
+The goal is not autonomy at any cost. It is **governable, composable
+intelligence**: work that can be supervised while it happens, reconstructed
+after it ends, and improved only when the evidence supports improvement.
 
-If this repository does its job, you walk away with three things:
+## What is true now
 
-1. A working mental model of what **agentic AI** is and why it is **not** a "better chatbot."
-2. An understanding that the **Agentic Web** is a real, missing layer of infrastructure — and that whoever builds it well will shape the next decade.
-3. A sense of why **MCP** and protocols like it are the unlocking piece — and why **ZéNí is positioned at the center of that unlock.**
+**Live:** PitStop, SideQuest, and the ZéNí trust surface are deployed as a
+connected pilot-readiness system. Public surfaces are intentionally narrow; the core
+product repositories remain private.
 
-The next ten years of software get built on coordination, not on cleverer models. We are building the coordination.
+**Demonstrated:** Mission Twin has retained completed missions as replayable
+evidence, run a controlled route challenger, compared the result with a later
+mission, and withheld promotion when the apparent lesson did not repeat. Read
+the bounded account: **[The system said no](CAUSAL_OPERATING_SYSTEM_PROOF.md)**.
+
+**In pilot readiness:** The current focus is the experience real startup
+operators encounter first—mission clarity, truthful status, useful artifacts,
+revision recovery, evidence, and responsive behavior.
+
+**Not claimed:** ZéNí is not generally available, has not demonstrated a
+validated causal policy, and does not treat one replay or a small pilot sample
+as authority to change routing or memory automatically.
+
+## Inspect the public proof surface
+
+- [PitStop operator console](https://ps-cockpit-jtbcd9.fly.dev/)
+- [SideQuest routing surface](https://sq-route-jtbcd9.fly.dev/)
+- [ZéNí trust surface](https://zn-hub-jtbcd9.fly.dev/)
+- [Human-readable pipeline sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.html)
+- [Machine-readable pipeline sample](https://zn-hub-jtbcd9.fly.dev/public/pipeline-sample.json)
+- [Public Mission Twin maturity summary](https://sq-route-jtbcd9.fly.dev/mission-twins/public-summary)
+
+These surfaces show bounded product and evidence behavior. They do not expose
+private source, credentials, customer material, prompts, or internal production
+records.
+
+## Choose a reading path
+
+| If you have… | Start here | Then read |
+|---|---|---|
+| **3 minutes** | [About ZéNí](ABOUT_ZENI.md) | [FAQ](FAQ.md) |
+| **10 minutes** | [Manifesto](MANIFESTO.md) | [Why ZéNí, why now](WHY_ZENI.md) |
+| **20 minutes** | [Agentic AI](AGENTIC_AI.md) | [The Agentic Web](AGENTIC_WEB.md) → [Why MCP matters](WHY_MCP_MATTERS.md) |
+| **Evidence first** | [The system said no](CAUSAL_OPERATING_SYSTEM_PROOF.md) | [Trust and Governance](TRUST_AND_GOVERNANCE.md) |
+
+Prefer a visual overview? Open the browser-readable
+**[ZéNí public editorial brief](https://kelisi808.github.io/_ZeNi_/)**.
+
+For the complete map, see [Repository Structure](REPO_STRUCTURE.md).
+
+## Read in your language
+
+The repository includes extensive summaries that stand on their own:
+
+[中文（简体）](Language%20Options/SUMMARY.zh-CN.md) ·
+[Français](Language%20Options/SUMMARY.fr.md) ·
+[Español](Language%20Options/SUMMARY.es.md) ·
+[Deutsch](Language%20Options/SUMMARY.de.md) ·
+[Dansk](Language%20Options/SUMMARY.da.md) ·
+[Ελληνικά](Language%20Options/SUMMARY.el.md)
 
 ---
 
-<div align="center">
+<p align="center">
+  <strong>The thesis is public. The work is operational.</strong><br />
+  Founded by Kelisi Ananke · Cambridge, Massachusetts · 2026<br />
+  <a href="https://www.linkedin.com/in/kelisi/">Engage with the venture</a>
+</p>
 
-**The thesis is public. The work is operational.**
-
-[Read the manifesto](MANIFESTO.md) · [Engage with the venture](ABOUT_ZENI.md#contact)
-
-</div>
-
----
-
-<sub>Founded by Kelisi Ananke. Harvard Master in Design Engineering. Pre-pilot, 2026. The text in this repository is published for visitor education — see [LICENSE](LICENSE) and the [Public Repository Note](PUBLIC_REPOSITORY_NOTE.md).</sub>
+<sub>This is ZéNí's public editorial repository, not its product source tree.
+See the <a href="PUBLIC_REPOSITORY_NOTE.md">Public Repository Note</a> and
+<a href="LICENSE">license</a>.</sub>

@@ -23,7 +23,7 @@ Le modèle est un **moteur**. Nécessaire, coûteux, remarquable. Mais un moteur
 
 Le châssis manque. Nous le construisons.
 
-Plus précisément : la **couche de coordination** qui transforme des modèles isolés en agents responsables, gouvernés, composables. Cette couche est aujourd'hui largement absente. Quelques frameworks la revendiquent, aucun ne l'a remportée, et la consolidation arrivera dans les dix-huit à trente-six mois qui viennent.
+Plus précisément : la **couche de coordination** qui transforme des modèles isolés en agents responsables, gouvernés, composables. Cette couche reste à structurer : de nombreux projets résolvent une partie du problème, mais aucun modèle opérationnel commun ne s'est imposé.
 
 ---
 
@@ -56,7 +56,7 @@ Le Web Agentique est le nom de cette couche d'infrastructure manquante. Elle exi
 
 ### MCP — Model Context Protocol
 
-MCP est, à notre avis, la norme ouverte la plus importante publiée dans le domaine de l'IA depuis trois ans. Elle ramène le problème n×m d'intégration "modèle à outil" à un problème n+m : tout modèle compatible MCP peut consommer toute capacité compatible MCP.
+MCP est un protocole ouvert qui relie les applications d'IA à des systèmes externes. Un hôte établit des connexions clientes avec des serveurs qui peuvent exposer des outils, des ressources et des prompts réutilisables au moyen d'une interface commune.
 
 MCP est l'**écartement de rail** de l'ère agentique. Ce n'est pas la locomotive — mais chaque train qui sera construit ensuite roulera dessus.
 
@@ -83,7 +83,7 @@ L'argument en trois étapes :
 
 1. **Le modèle se banalise.** L'écart entre les meilleurs modèles fermés et ouverts se rétrécit chaque trimestre. Le modèle est en train de devenir le substrat, non plus le produit.
 2. **La valeur remonte vers la couche opérationnelle.** Chaque transition de plateforme des quarante dernières années s'est jouée à la **couche immédiatement au-dessus** du substrat qui se banalisait. PC → systèmes d'exploitation. OS → navigateur. Navigateur → plateforme applicative. Plateforme applicative → SaaS. Cette fois : modèles → couche de coordination.
-3. **La couche de coordination est aujourd'hui une pièce vide.** Personne ne l'a remportée. Les primitives de consolidation n'existent pas encore. La fenêtre pour bâtir une entreprise crédible dans cette couche est ouverte pour dix-huit à trente-six mois.
+3. **La couche de coordination reste à structurer.** De nombreux acteurs en construisent des parties, mais la découverte, le routage, la gouvernance et la preuve ne sont pas encore réunis dans un modèle opérationnel commun.
 
 ZéNí a commencé par le bon problème — la coordination, la confiance, la preuve — et non par un chatbot qu'il faudrait "agentifier" plus tard. Les décisions architecturales qui découlent de ce point de départ (la politique comme service back-end de première classe, MCP comme surface réelle d'interopérabilité, les reçus signés par défaut, l'allocation de modèles gouvernée) ne sont pas des ajouts — elles sont l'ossature.
 
@@ -97,11 +97,13 @@ Il contient : des essais sur l'IA agentique, le Web agentique, MCP ; un manifest
 
 Les systèmes produits et la couche éditoriale publique évoluent en parallèle. Ce dépôt se concentre sur l'éducation, le positionnement, le contexte public et les matériaux publics actuels.
 
+**État actuel :** ZéNí est en préparation active de pilotes. Les surfaces produit connectées sont déployées, mais le système n'est pas disponible de manière générale. L'accent porte sur une utilisation structurée avec des opérateurs de startups.
+
 ---
 
 ## La fondatrice et contact
 
-**Kelisi Ananke** — fondatrice unique. Programme conjoint Harvard / MIT Master in Design Engineering. Basée à Cambridge, USA.
+**Kelisi Ananke** — fondatrice unique. Harvard Master in Design Engineering. Basée à Cambridge, USA.
 
 - LinkedIn : <https://www.linkedin.com/in/kelisi/>
 - GitHub : <https://github.com/Kelisi808>
@@ -121,7 +123,7 @@ Les essais complets en anglais se trouvent dans le dépôt :
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — pourquoi ZéNí, pourquoi maintenant
 - **[GLOSSARY.md](../GLOSSARY.md)** — glossaire
 - **[FAQ.md](../FAQ.md)** — questions fréquentes
-- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — le deck public actuel
+- **[Présentation éditoriale publique](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — l'introduction à lire dans le navigateur
 
 > _« La prochaine question importante en IA n'est plus l'intelligence.
 > C'est de rendre l'intelligence utilisable, coordonnée et digne de confiance dans le travail réel. »_

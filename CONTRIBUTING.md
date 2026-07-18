@@ -34,7 +34,10 @@ New prose should match the tone of the existing essays:
 - Argument structure that the reader can disagree with. We are publishing a thesis, not a creed.
 - Short paragraphs where they are honest; long paragraphs where the argument earns the length.
 
-For the visual artifacts (SVG diagrams, the public layer diagram), the visual grammar is mineral charcoal palette, restraint, and editorial typography. Use the existing diagram as a reference.
+For visual artifacts, the grammar is mineral charcoal, warm paper, restrained
+accent color, visible grid logic, and editorial typography. Use the README
+header and public editorial brief as references; do not recreate generic
+rounded-box AI diagrams.
 
 ## How to contribute
 

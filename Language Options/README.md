@@ -13,4 +13,4 @@ Each summary is self-sufficient. A reader who picks the file matching their lang
 | Dansk — Danish | [SUMMARY.da.md](SUMMARY.da.md) |
 | Ελληνικά — Greek | [SUMMARY.el.md](SUMMARY.el.md) |
 
-The full English essays and the current [ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html) remain in the repository root. If you want to read deeper than the summary, start at the [README](../README.md) and follow the reading paths from there.
+The full English essays and the browser-readable [public editorial brief](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html) remain in the repository root. If you want to read deeper than the summary, start at the [README](../README.md) and follow the reading paths from there.
