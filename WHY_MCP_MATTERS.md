@@ -1,89 +1,101 @@
 # Why MCP matters
 
-> Of every open standard published in the last three years, Model Context Protocol is the one that quietly changed the most. Most people still haven't noticed.
+> MCP standardizes connection. It does not make a connected system trustworthy
+> by itself.
 
 ## What MCP is
 
-The **Model Context Protocol (MCP)** is an open standard that defines how language models talk to the world outside themselves — to tools, to data, to other systems, to other models.
+The **Model Context Protocol (MCP)** is an open protocol for connecting AI
+applications to external systems. An MCP host can establish client connections
+to servers that expose capabilities such as tools, resources, and reusable
+prompts through a common protocol.
 
-Before MCP, every AI integration was a bespoke wiring job. Each vendor invented its own way for the model to call a search engine, read a file, send an email, or query a database. Switching models meant rewriting the wiring. Switching vendors meant rewriting twice. Composing multiple models in one workflow meant rewriting forever.
+That distinction matters. MCP is not a model, an agent framework, or a universal
+registry. It is a standardized interaction boundary between an AI application
+and the systems it can use.
 
-MCP collapses that into a single protocol: a stable, model-agnostic way to expose a **capability** (a tool, a resource, a data source) to any model that speaks the protocol. Once a system implements MCP, every MCP-compliant model can use it. Once a model speaks MCP, it can consume every MCP-compliant capability.
+Official references:
 
-In one diagram:
+- [Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Architecture](https://modelcontextprotocol.io/docs/learn/architecture)
+- [Specification](https://modelcontextprotocol.io/specification/)
+- [Governance](https://modelcontextprotocol.io/community/governance)
 
+## The integration problem it improves
+
+Without a shared protocol, every application-to-capability connection risks
+becoming bespoke. A search tool, document store, database, or internal service
+may need a different adapter for every host.
+
+MCP creates a reusable boundary:
+
+```text
+AI application / host
+        │
+        ├── MCP client ── MCP server ── tools
+        ├── MCP client ── MCP server ── resources
+        └── MCP client ── MCP server ── prompts and workflows
 ```
-   Before MCP                          With MCP
-   ───────────                         ─────────
-                                        ┌───────────┐
-   Model A ─── Wiring ─── Tool 1        │           │
-   Model A ─── Wiring ─── Tool 2        │   Model A │──┐
-   Model A ─── Wiring ─── Tool 3        │           │  │
-                                        │   Model B │──┤
-   Model B ─── Wiring ─── Tool 1        │           │  │   ┌───────────────┐
-   Model B ─── Wiring ─── Tool 2        │   Model C │──┼───┤   MCP layer   │── Tool 1, 2, 3, ...
-   Model B ─── Wiring ─── Tool 3        │           │  │   └───────────────┘
-                                        │   Model D │──┘
-   ...n × m custom wirings...           │           │
-                                        └───────────┘
-```
 
-The n×m integration problem becomes n+m. That is not a small improvement. That is the difference between an industry that can compose and an industry that cannot.
+Servers can describe what they support. Clients and servers negotiate
+capabilities. Hosts retain control over connection, consent, and how exposed
+capabilities are presented to a model or user.
 
----
-
-## Why MCP matters more than any single model
-
-It is tempting to evaluate AI progress by looking at which model is currently winning the benchmarks. That measure is misleading. Benchmark leadership rotates every few months. The protocol layer underneath does not.
-
-When the railroads were being built, the people who got rich were not the ones who built the first locomotive. They were the ones who **set the gauge.** Standardize the rails, and every train that has ever been built or will ever be built can run on them. Pick the wrong gauge, and your equipment is permanently isolated.
-
-MCP is the gauge. Anthropic published it as an open standard for a reason: a protocol's value is its adoption, not its ownership. The more systems speak MCP, the more valuable speaking MCP becomes for the next system. We are in the early innings of that flywheel.
-
-This is why a venture's relationship to MCP is, in 2026, a more useful signal of long-term defensibility than its model choice. The model choice will change three times in five years. The protocol choice compounds.
-
----
+This reduces repeated integration work and makes capability providers less
+dependent on one model vendor's private interface.
 
 ## What MCP gets right
 
-Three design choices put MCP on the right side of the durability question:
+### A shared boundary
 
-1. **Open by default.** No central owner. No license trap. Vendors implement it because it's strictly better than the alternative, not because they have to.
-2. **Server-side capabilities, client-side models.** The capability provider exposes a stable surface. The model is the consumer. Capabilities outlive models. Designing the protocol around the slower-moving side is the right choice.
-3. **Composable, not hierarchical.** A capability can itself consume other capabilities via MCP. An agentic workflow becomes a directed graph of capability calls, each one independently inspectable.
+Capability providers can expose a consistent protocol instead of rebuilding
+their interface for every AI application.
+
+### A host-controlled architecture
+
+The host coordinates client connections and the user experience. A model does
+not become an unbounded network actor merely because an MCP server exists.
+
+### Explicit capability negotiation
+
+Clients and servers can identify supported features rather than assuming every
+participant implements the same surface.
+
+### An evolving open ecosystem
+
+The specification, SDKs, and governance process are public. Implementations can
+improve without tying the protocol's value to a single model release.
+
+## What MCP does not solve for ZéNí
+
+MCP standardizes communication. A production operating layer still has to
+answer questions outside that boundary:
+
+- Which capability should receive this mission?
+- Is the requesting actor allowed to use it now?
+- What budget, risk, and approval limits apply?
+- Which model should handle each phase?
+- What evidence proves the route, action, and outcome?
+- How should failures, revisions, and cleanup be represented?
+- What may a later mission learn from this one?
+
+Those are coordination and governance responsibilities. Treating MCP as if it
+solves them would weaken both the protocol and the systems built around it.
+
+## Why it matters to ZéNí
+
+ZéNí is designed to remain model- and capability-agnostic at the connection
+layer. MCP is one important way to make that boundary real.
+
+PitStop gives the operator a legible command surface. SideQuest coordinates
+machine-facing capabilities and records outcomes. ZéNí preserves policy,
+evidence, readiness, and learning boundaries across the loop. MCP helps those
+surfaces connect to an open capability ecosystem without turning one vendor's
+SDK into the architecture.
+
+The protocol is the connection. The governed operating loop is the product.
 
 ---
 
-## What MCP, deliberately, does not solve
-
-MCP is a transport-and-shape protocol. It says how a model and a capability **talk**. It does not say:
-
-- _Who is allowed to invoke this capability right now?_  (Authorization is not in scope.)
-- _How are exchanges audited at the policy level?_  (Evidence is not in scope.)
-- _How do agents discover capabilities they have never used before?_  (Registry is not in scope.)
-- _How is the cost of a capability invocation reconciled against an operator's budget?_  (Cost governance is not in scope.)
-- _Which model should answer which phase of a multi-phase workflow, and how is the handoff packaged?_  (Allocation is not in scope.)
-
-This is not a flaw. A protocol that tried to solve all of those would have been too opinionated to adopt. MCP chose its scope well.
-
-But it does mean: **MCP is necessary and not sufficient.** Around MCP you need a coordination layer that handles discovery, policy, evidence, and allocation. Without that layer, MCP gives you a great pipe and no operating system.
-
-That coordination layer is the Agentic Web problem. (See [The Agentic Web](AGENTIC_WEB.md).)
-
----
-
-## Why this matters for the next decade
-
-A protocol's value compounds with its adoption. The more systems speak MCP, the more valuable speaking MCP becomes for the next system. The flywheel has started. The question now is what gets built **around** MCP — the registries, the trust layers, the evidence chains, the policy substrates — and who builds them.
-
-That layer of build-out is where the next platform shift happens.
-
-A venture's relationship to MCP is, in 2026, a more useful signal of long-term thinking than its model choice. The model choice will change three or four times in five years. The protocol choice compounds.
-
-ZéNí treats MCP as a real interop surface, not as branding. We are building toward a coordination layer where any compliant model and any compliant capability can participate — without locking participants to a specific vendor's orchestrator, a specific cloud's runtime, or a specific framework's opinion about what an agent is.
-
-The protocol layer is open. The layer above it is the prize.
-
----
-
-**Next →** [Why ZéNí, why now](WHY_ZENI.md) — the timing argument and the positioning.
+**Back to** [README](README.md) · **Read next →**
+[Why ZéNí, why now](WHY_ZENI.md)

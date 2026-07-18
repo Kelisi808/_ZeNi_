@@ -76,9 +76,13 @@ The receipt chain — the ordered set of receipts produced over a workflow's lif
 
 ## MCP — Model Context Protocol
 
-An open standard, originated by Anthropic, that defines how language models communicate with the world outside themselves: tools, data sources, services, other systems. MCP collapses the n×m problem of model-to-tool integration into n+m, by standardizing the surface that capability providers expose.
+An open protocol for connecting AI applications to external systems. An MCP
+host establishes client connections to servers that expose capabilities such as
+tools, resources, and reusable prompts through a common interaction boundary.
 
-MCP is the **gauge of the railroad** for the agentic era. It is not the locomotive, but every train that gets built will run on it.
+MCP can reduce repeated application-to-capability integration without deciding
+the business authorization, routing, evidence, or learning policy around that
+connection.
 
 → Deep dive: [Why MCP matters](WHY_MCP_MATTERS.md)
 

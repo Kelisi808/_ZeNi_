@@ -32,7 +32,11 @@ For non-commercial purposes — journalism, academic writing, analyst coverage, 
 
 ZéNí is building governed coordination for autonomous agent teams: a future where AI agents, tools, humans, and protocols need shared systems of coordination, evidence, governance, and trust.
 
-In concrete terms, it ships as three live products in pre-pilot operation: PitStop as the human command surface, SideQuest as the machine routing and accountability layer, and ZéNí as the trust fabric connecting them. The product roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md).
+In concrete terms, it runs as one connected system across three operating
+surfaces: PitStop as the human command surface, SideQuest as the machine routing
+and accountability layer, and ZéNí as the trust fabric connecting them. The
+system is deployed in pilot readiness, not generally available. The product
+roles are described in [ABOUT_ZENI.md](ABOUT_ZENI.md).
 
 **What problem does ZéNí solve?**
 
@@ -70,9 +74,14 @@ The Agentic Web is the condition the web takes on when its native participants a
 
 **What is MCP?**
 
-MCP — Model Context Protocol — is an open standard, originated by Anthropic, that defines how language models talk to the world outside themselves. It standardizes the surface that capability providers expose, so any compliant model can use any compliant capability without bespoke integration.
+MCP — Model Context Protocol — is an open protocol for connecting AI
+applications to external systems. A host establishes client connections to MCP
+servers that can expose tools, resources, and reusable prompts through a shared
+protocol.
 
-MCP solves the wiring problem. It does not solve the governance, evidence, or coordination problems. Those need a layer on top.
+MCP improves the integration boundary. It does not by itself decide business
+authorization, routing, evidence, budgets, outcomes, or learning policy. Those
+remain responsibilities of the operating layer.
 
 → Full explainer: [WHY_MCP_MATTERS.md](WHY_MCP_MATTERS.md)
 
@@ -110,7 +119,10 @@ Through the founder's LinkedIn, with a short note indicating the nature of the c
 
 **I'm a prospective pilot customer — how do I engage?**
 
-Same channel. The current state of the venture is pre-pilot, so the conversation is exploratory rather than transactional. We are selective about pilots because each one shapes the product direction in ways that matter.
+Same channel. ZéNí is preparing structured pilot use with startup operators, so
+the conversation is still exploratory and selective. Each early pilot should
+produce honest evidence about comprehension, mission success, artifact quality,
+revisions, and repeat use.
 
 **I want to write about ZéNí — what's appropriate?**
 
@@ -120,7 +132,8 @@ The conceptual material in this repository is publicly quotable with attribution
 
 Not currently in the public repository. The editorial material is a deliberate, founder-voiced artifact and is not structured for outside contributions. If you have a piece of writing or analysis you think belongs here, you are welcome to propose it via outreach, but contributions are by invitation rather than open submission.
 
-When public software components ship in the future, they will have their own contribution paths.
+If public software components are released later, they will have their own
+scope, license, and contribution path.
 
 ---
 
@@ -128,17 +141,26 @@ When public software components ship in the future, they will have their own con
 
 **Will there be open-source releases?**
 
-Possibly, but not as a promise in advance of the right use case. The components that make the most sense to release publicly are the ones that benefit the broader ecosystem without weakening the venture's defensibility — for example, an agent schema definition, a UI kit for agentic-mode visualization, or an MCP server template.
+Possibly, but this repository does not promise a release or a roadmap. Any
+future public component should have a clear ecosystem purpose, an explicit
+security boundary, and its own license and contribution path.
 
 **Will this public repository grow?**
 
-Yes. As the venture matures, additional essays, glossary entries, and educational artifacts will land here. Substantial growth — for example, a polished site at a custom domain, or short-form analyst-style pieces — will be considered when the underlying work warrants it.
+It will change when new public evidence or a genuinely useful explanation
+warrants the change. The goal is a small, current editorial collection rather
+than an ever-growing content archive.
 
 **Where is the venture now and where is it going?**
 
-The venture is currently in pre-pilot operation. The pipeline of three live products exists and is reachable; demonstration is available on request. The near-term focus is first pilot deployment with a serious operational partner. The long-term focus is the coordination layer for the agentic ecosystem.
+The venture is in live pilot readiness. PitStop, SideQuest, and the ZéNí trust
+surface are deployed and connected; the current focus is structured use with
+startup operators. The system has product and bounded category proof, but not
+general availability, market validation, or validated causal policy.
 
-The shape of the answer to "where is it going" is articulated in the [Manifesto](MANIFESTO.md), the [Why ZéNí](WHY_ZENI.md) page, and the [ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html).
+The longer direction is articulated in the [Manifesto](MANIFESTO.md), the
+[Why ZéNí](WHY_ZENI.md) page, and the public editorial brief linked from the
+[README](README.md).
 
 ---
 

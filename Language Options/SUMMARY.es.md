@@ -23,7 +23,7 @@ El modelo es un **motor**. Necesario, costoso, asombroso. Pero un motor sin chas
 
 Falta el chasis. Lo estamos construyendo.
 
-Más concretamente: la **capa de coordinación** que convierte modelos aislados en agentes responsables, gobernados y componibles. Esa capa hoy está casi vacía. Algunos frameworks la reclaman, ninguno la ha ganado, y la consolidación llegará en los próximos dieciocho a treinta y seis meses.
+Más concretamente: la **capa de coordinación** que convierte modelos aislados en agentes responsables, gobernados y componibles. Esa capa sigue sin consolidarse: muchos proyectos resuelven partes del problema, pero no se ha impuesto un modelo operativo común.
 
 ---
 
@@ -56,7 +56,7 @@ La Web Agéntica es el nombre de esa capa de infraestructura faltante. Requiere:
 
 ### MCP — Model Context Protocol
 
-MCP es, en nuestra opinión, el estándar abierto más importante publicado en IA en los últimos tres años. Reduce el problema n×m de integraciones "modelo a herramienta" a uno n+m: cualquier modelo compatible con MCP puede consumir cualquier capacidad compatible con MCP.
+MCP es un protocolo abierto que conecta aplicaciones de IA con sistemas externos. Un host establece conexiones cliente con servidores que pueden exponer herramientas, recursos y prompts reutilizables mediante una interfaz común.
 
 MCP es el **ancho de vía** de la era agéntica. No es la locomotora — pero cada tren que se construya correrá sobre él.
 
@@ -83,7 +83,7 @@ El argumento en tres pasos:
 
 1. **El modelo se está comoditizando.** La brecha entre los mejores modelos cerrados y abiertos se estrecha cada trimestre. El modelo se está convirtiendo en el sustrato, no en el producto.
 2. **El valor sube hacia la capa operacional.** Cada transición de plataforma de los últimos cuarenta años se jugó en la **capa inmediatamente por encima** del sustrato que se comoditizaba. PC → sistemas operativos. SO → navegador. Navegador → plataforma de aplicaciones. Plataforma de aplicaciones → SaaS. Esta vez: modelos → capa de coordinación.
-3. **La capa de coordinación es hoy una habitación vacía.** Nadie la ha ganado. Las primitivas de consolidación aún no existen. La ventana para construir una empresa creíble en esta capa está abierta por dieciocho a treinta y seis meses.
+3. **La capa de coordinación sigue sin consolidarse.** Muchos actores construyen partes de ella, pero el descubrimiento, el enrutamiento, la gobernanza y la evidencia todavía no se unen en un modelo operativo común.
 
 ZéNí comenzó con el problema correcto —coordinación, confianza, evidencia— y no con un chatbot al que después había que "agentificar". Las decisiones arquitectónicas que se derivan de ese punto de partida (política como servicio backend de primera clase, MCP como superficie de interoperabilidad real, recibos firmados por defecto, asignación de modelos gobernada) no son añadidos: son el esqueleto.
 
@@ -97,11 +97,13 @@ Contiene: ensayos sobre la IA agéntica, la Web agéntica, MCP; un manifiesto; u
 
 Los sistemas de producto y la capa editorial pública evolucionan en paralelo. Este repositorio se concentra en educación, posicionamiento, contexto público y los materiales públicos actuales.
 
+**Estado actual:** ZéNí está en preparación activa para pilotos. Las superficies de producto conectadas están desplegadas, pero el sistema no está disponible de forma general. El foco es el uso estructurado con operadores de startups.
+
 ---
 
 ## La fundadora y contacto
 
-**Kelisi Ananke** — fundadora única. Programa conjunto Harvard / MIT Master in Design Engineering. Cambridge, USA.
+**Kelisi Ananke** — fundadora única. Harvard Master in Design Engineering. Cambridge, USA.
 
 - LinkedIn: <https://www.linkedin.com/in/kelisi/>
 - GitHub: <https://github.com/Kelisi808>
@@ -121,7 +123,7 @@ Los ensayos completos en inglés viven en el repositorio:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — por qué ZéNí, por qué ahora
 - **[GLOSSARY.md](../GLOSSARY.md)** — glosario
 - **[FAQ.md](../FAQ.md)** — preguntas frecuentes
-- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — el pitch deck público actual
+- **[Presentación editorial pública](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — la introducción para navegador
 
 > _"La próxima pregunta importante en IA no es la inteligencia.
 > Es cómo hacer que la inteligencia sea utilizable, coordinada y digna de confianza en el trabajo real."_

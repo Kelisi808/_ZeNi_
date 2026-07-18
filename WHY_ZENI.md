@@ -1,76 +1,110 @@
 # Why ZéNí, why now
 
-> The strongest signal that we are in a platform shift is that the smartest people in adjacent industries are confused about what to bet on. Right now, they are confused.
+> Better models expand what is possible. An operating layer determines what can
+> be trusted.
 
-## The argument in three steps
+## The thesis in three moves
 
-**1. The model layer is commoditizing.**
-Twelve months ago, the gap between the best closed model and the best open model was a chasm. Today it is a step. Twelve months from now it will be a seam. The economic logic of model commoditization is the same logic that took every other compute primitive (CPUs, OS kernels, database engines, browsers) from differentiator to fungible. The model itself is becoming the substrate; it is no longer the product.
+### 1. Model capability is becoming easier to access
 
-**2. The value is moving up to the coordination layer.**
-Each platform shift in the last forty years was won at the layer immediately **above** the commoditizing substrate. Personal computers commoditized hardware; operating systems won. Operating systems commoditized themselves; the browser won. The browser commoditized rendering; the application platform won. The application platform commoditized over-the-network calls; the SaaS layer won. Each time, the prize sat at the **operational layer above the new substrate.** For AI, the operational layer is the coordination layer: discovery, routing, trust, accountability, governance.
+Frontier models remain difficult and expensive to build. Access to capable
+models, however, is spreading across vendors, price points, deployment models,
+and open ecosystems. A product whose only advantage is access to one model is
+therefore exposed to the next model release.
 
-**3. The coordination layer is, right now, an empty room.**
-A handful of frameworks claim it. None has won. None has consolidation primitives the market trusts. The space is one or two acquisitions and one or two failures away from being permanently locked in. The window for building a credible, defensible coordination-layer venture is open for, our estimate, eighteen to thirty-six months. Then it closes.
+ZéNí's thesis is not that models stop mattering. It is that model choice becomes
+one governed decision inside a larger system.
 
-If you accept those three steps, you accept that this is a generational positioning window. Whether you accept the third step is what separates investors who see the moment from investors who are still looking at the model.
+### 2. The operational burden grows as agents become more capable
 
----
+The more work an agent can perform, the more consequential the surrounding
+questions become:
 
-## What the room looks like
+- Which agent or capability receives the mission?
+- What may it do, with which tools, for how long, and against what budget?
+- Which model is appropriate for each phase?
+- When must a person approve, redirect, or stop the work?
+- What outcome was delivered, and what evidence supports it?
+- Which lesson deserves to influence a later mission?
 
-The current state of the coordination layer, with charity:
+These are coordination questions. Better generation does not answer them.
 
-- **Workflow framework vendors** (the LangGraphs, the CrewAIs, the AutoGens): solving developer ergonomics inside a single Python process. Helpful. Not the operational layer. Not auditable to a regulator. Not composable across companies.
-- **MCP-adjacent infrastructure** (the registries, the servers, the gateways): solving the transport-and-shape problem (see [Why MCP matters](WHY_MCP_MATTERS.md)). Necessary. Not sufficient.
-- **Hyperscaler "agent platforms"** (the AWS/Bedrock/Azure/GCP equivalents): well-funded, will get to good. But locked to their cloud and inheriting the operational assumptions of their cloud — which were built for a different generation of software.
-- **Application-layer AI products with embedded agents** (the Notions, the Cursors, the Glades): coordination shows up internally but never escapes the product. Not infrastructure.
+### 3. The category is still unsettled
 
-What is missing is the **horizontal, vendor-neutral, audit-grade, policy-governed coordination layer** that any of these can stand on. The kind of layer that, once it exists, every other layer either uses or reinvents badly.
+Agent frameworks, cloud platforms, model providers, protocol projects, and
+application companies are all addressing parts of the operating problem. No
+single category boundary has settled around discovery, authorization, routing,
+evidence, intervention, and governed learning across vendors.
 
-That is what ZéNí is building.
-
----
+That unsettled boundary is the opportunity. ZéNí is building at the layer where
+those responsibilities meet.
 
 ## Why ZéNí
 
-We are not the only venture making this bet. We may not be the largest. We are confident we are positioned correctly for three reasons:
+### It began with coordination, not conversation
 
-### 1. We started at the right layer
+ZéNí did not begin as a chatbot that later acquired an “agent” label. PitStop,
+SideQuest, and the ZéNí trust surface were shaped around operator intent,
+machine routing, bounded authority, receipts, outcomes, and continuity.
 
-ZéNí did not start as a chatbot company trying to "add agents." It started as a venture explicitly focused on the coordination problem: discovery, routing, trust, evidence, governance. The architecture decisions that flow from that starting point — policy as a first-class backend service, MCP as a real interop surface, signed receipts by default, governed model allocation — are not bolted on. They are the spine.
+### It treats the human and machine surfaces as different jobs
 
-### 2. We ship the three corners simultaneously
+PitStop must make autonomous work understandable to a person. SideQuest must
+make capabilities, state, and decisions usable by machines. ZéNí keeps the
+governance and evidence contract coherent across both.
 
-A coordination layer that only solves discovery is incomplete. So is one that only solves trust, or only routing, or only evidence. ZéNí ships three live products today (PitStop, SideQuest, and the trust fabric) that each hold one corner of the layer and integrate by design. The thesis is not "we will eventually build all three." All three are in pre-pilot operation now.
+That separation is deliberate. A machine-readable record is not automatically
+a useful operator experience. A polished dashboard is not automatically a
+trustworthy machine contract.
 
-### 3. We treat the protocol layer with respect
+### It treats protocols as boundaries, not branding
 
-MCP is, in our view, the most important standard published in AI in the last three years. We treat it as a real interop surface, not a logo on the marketing page. Our products both consume MCP and expose MCP. This matters because a defensible coordination layer is one that **any** model and **any** capability can integrate with — not just our preferred ones. The protocol layer is how that gets done.
+MCP makes a growing ecosystem of tools and data sources easier for AI
+applications to connect to. ZéNí treats that interoperability as a real system
+boundary while retaining the responsibilities MCP does not claim: policy,
+routing, evidence, approvals, outcomes, and learning governance.
+
+### It is building a loop that can say no
+
+A trustworthy learning system must preserve negative results. ZéNí has
+demonstrated one bounded case in which a controlled replay changed a route, a
+later comparison did not repeat the apparent lesson, and no policy was
+promoted.
+
+That is a small proof with a meaningful boundary. Read
+[The system said no](CAUSAL_OPERATING_SYSTEM_PROOF.md).
+
+## What success would feel like
+
+An operator describes a mission and sees the system turn it into governed work.
+The route is visible. Authority is bounded. State is truthful. The requested
+artifact is distinct from the process that produced it. Review and revision are
+normal parts of the loop. The completed mission leaves enough evidence to be
+understood later.
+
+If a lesson appears, it is tested before it becomes policy.
+
+The result is not autonomy without people. It is higher-leverage human judgment
+supported by machines whose actions remain legible.
+
+## The current boundary
+
+ZéNí is in live pilot readiness, not general availability. Deployed product
+surfaces and bounded evidence exist. Market validation and validated causal
+policy do not yet.
+
+The immediate work is deliberately practical: prove that startup operators can
+understand the system, complete useful missions, recover from revisions and
+failures, and trust what the interface says happened.
+
+That is where an operating-layer thesis becomes a product people can use.
+
+## Engage
+
+For pilot, investment, partnership, or press conversations, contact founder
+[Kelisi Ananke on LinkedIn](https://www.linkedin.com/in/kelisi/).
 
 ---
 
-## What it would feel like, in five years, if we are right
-
-In five years, agentic work is the dominant pattern in white-collar software. A workflow is described by an operator and dispatched into a graph of agents that find each other, negotiate, execute, and leave evidence. The operator reviews a receipt panel, not a chat log. Models inside the workflow are chosen by policy, switched mid-workflow when conditions warrant, and replaced as the model market evolves — without breaking the workflow.
-
-The substrate that makes all of this work — the registry, the trust fabric, the receipt chain, the allocation engine — is a layer that, today, nobody owns and everyone needs.
-
-The companies that own that layer, in five years, will be among the most valuable companies in the AI ecosystem. We are building to be among them.
-
----
-
-## How to engage
-
-If this argument compels you and you would like to learn more, the relevant paths:
-
-- **Investors** — outreach via the channels listed in [About ZéNí](ABOUT_ZENI.md).
-- **Prospective pilot customers** — same.
-- **Press and analysts** — same.
-- **Engineers curious about the concepts** — start with the essays, glossary, FAQ, and current public deck. As the venture matures, narrow public software releases may make sense for specific protocol-adjacent components.
-
-The thesis is public. The work is operational.
-
----
-
-**Back to** [README](README.md) · **Read the manifesto →** [MANIFESTO.md](MANIFESTO.md)
+**Back to** [README](README.md) · **Read next →**
+[Trust and Governance](TRUST_AND_GOVERNANCE.md)

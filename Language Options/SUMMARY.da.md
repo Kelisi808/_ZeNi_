@@ -23,7 +23,7 @@ Modellen er en **motor**. Nødvendig, dyr, imponerende. Men en motor uden chassi
 
 Chassiset mangler. Vi bygger det.
 
-Mere præcist: det **koordinationslag**, der forvandler isolerede modeller til ansvarlige, styrede, sammensættelige agenter. Dette lag er i dag næsten tomt. Et par frameworks gør krav på det, ingen har vundet det, og konsolideringen kommer inden for de næste atten til seksogtredive måneder.
+Mere præcist: det **koordinationslag**, der forvandler isolerede modeller til ansvarlige, styrede, sammensættelige agenter. Laget er stadig uafklaret: mange projekter løser dele af problemet, men ingen fælles driftsmodel har sat sig igennem.
 
 ---
 
@@ -56,7 +56,7 @@ Det Agentiske Web er navnet på dette manglende infrastrukturlag. Det kræver:
 
 ### MCP — Model Context Protocol
 
-MCP er efter vores vurdering den vigtigste åbne standard, der er udgivet inden for AI de seneste tre år. Den reducerer n×m-problemet for "model-til-værktøj"-integrationer til n+m: Enhver MCP-kompatibel model kan forbruge enhver MCP-kompatibel kapabilitet.
+MCP er en åben protokol, der forbinder AI-applikationer med eksterne systemer. En vært opretter klientforbindelser til servere, som kan stille værktøjer, ressourcer og genanvendelige prompts til rådighed gennem en fælles grænseflade.
 
 MCP er det agentiske tidsalders **sporvidde**. Det er ikke lokomotivet — men hvert tog, der bygges herefter, kører på det.
 
@@ -83,7 +83,7 @@ Argumentet i tre trin:
 
 1. **Modellen er ved at blive en commodity.** Kløften mellem de bedste lukkede og åbne modeller bliver mindre hvert kvartal. Modellen bliver substratet, ikke produktet.
 2. **Værdien flytter sig op til det operationelle lag.** Hvert plateauskifte i de seneste fyrre år er blevet afgjort i **laget umiddelbart oven på** det substrat, der blev til en commodity. PC → operativsystemer. OS → browser. Browser → applikationsplatform. Applikationsplatform → SaaS. Denne gang: modeller → koordinationslag.
-3. **Koordinationslaget er i dag et tomt rum.** Ingen har vundet det. Konsolideringsprimitiverne findes endnu ikke. Vinduet til at bygge et troværdigt firma i dette lag er åbent i atten til seksogtredive måneder.
+3. **Koordinationslaget er stadig uafklaret.** Mange aktører bygger dele af det, men ansvar for opdagelse, routing, styring og bevis er endnu ikke samlet i en fælles driftsmodel.
 
 ZéNí er startet med det rigtige problem — koordination, tillid, bevis — og ikke med en chatbot, som senere skulle "agentificeres". De arkitektoniske beslutninger, der følger af dette udgangspunkt (politik som førsteklasses backend-tjeneste, MCP som reel interoperabilitetsoverflade, signerede kvitteringer som standard, styret modeltildeling), er ikke tilføjelser: de er skelettet.
 
@@ -97,11 +97,13 @@ Det indeholder: essays om agentisk AI, det Agentiske Web, MCP; et manifest; en o
 
 Produktsystemerne og den offentlige redaktionelle flade udvikles parallelt. Dette repositorium fokuserer på uddannelse, positionering, offentlig kontekst og de aktuelle offentlige materialer.
 
+**Aktuel status:** ZéNí er i live pilotforberedelse. De forbundne produktflader er implementeret, men systemet er ikke generelt tilgængeligt. Fokus er struktureret brug med startup-operatører.
+
 ---
 
 ## Grundlæggeren og kontakt
 
-**Kelisi Ananke** — eneste grundlægger. Harvard / MIT Master in Design Engineering. Cambridge, USA.
+**Kelisi Ananke** — eneste grundlægger. Harvard Master in Design Engineering. Cambridge, USA.
 
 - LinkedIn: <https://www.linkedin.com/in/kelisi/>
 - GitHub: <https://github.com/Kelisi808>
@@ -121,7 +123,7 @@ De fulde engelske essays ligger i repositoriet:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — hvorfor ZéNí, hvorfor nu
 - **[GLOSSARY.md](../GLOSSARY.md)** — ordliste
 - **[FAQ.md](../FAQ.md)** — ofte stillede spørgsmål
-- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — det aktuelle offentlige pitch deck
+- **[Offentlig redaktionel introduktion](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — den browserbaserede oversigt
 
 > _"Det næste vigtige spørgsmål i AI er ikke intelligens.
 > Det er, hvordan intelligens bliver brugbar, koordineret og troværdig i rigtigt arbejde."_

@@ -23,7 +23,7 @@ Das Modell ist ein **Motor**. Notwendig, teuer, beeindruckend. Aber ein Motor oh
 
 Das Chassis fehlt. Wir bauen es.
 
-Genauer: die **Koordinationsschicht**, die isolierte Modelle in verantwortliche, regierte, komponierbare Agenten verwandelt. Diese Schicht ist heute fast leer. Einige Frameworks beanspruchen sie, keines hat sie gewonnen, und die Konsolidierung kommt in den nächsten achtzehn bis sechsunddreißig Monaten.
+Genauer: die **Koordinationsschicht**, die isolierte Modelle in verantwortliche, regierte, komponierbare Agenten verwandelt. Diese Schicht ist noch nicht gefestigt: Viele Projekte lösen Teile des Problems, aber kein gemeinsames Betriebsmodell hat sich durchgesetzt.
 
 ---
 
@@ -56,7 +56,7 @@ Das Agentische Web ist der Name dieser fehlenden Infrastrukturschicht. Sie erfor
 
 ### MCP — Model Context Protocol
 
-MCP ist unserer Einschätzung nach der wichtigste offene Standard, der in den letzten drei Jahren im KI-Bereich veröffentlicht wurde. Es reduziert das n×m-Problem der "Modell-zu-Werkzeug"-Integration auf ein n+m-Problem: Jedes MCP-kompatible Modell kann jede MCP-kompatible Fähigkeit nutzen.
+MCP ist ein offenes Protokoll, das KI-Anwendungen mit externen Systemen verbindet. Ein Host stellt Client-Verbindungen zu Servern her, die Werkzeuge, Ressourcen und wiederverwendbare Prompts über eine gemeinsame Schnittstelle anbieten können.
 
 MCP ist die **Spurweite** des agentischen Zeitalters. Es ist nicht die Lokomotive — aber jeder Zug, der danach gebaut wird, fährt auf dieser Spur.
 
@@ -83,7 +83,7 @@ Das Argument in drei Schritten:
 
 1. **Das Modell wird zur Commodity.** Die Lücke zwischen den besten geschlossenen und offenen Modellen schrumpft jedes Quartal. Das Modell wird zum Substrat, nicht zum Produkt.
 2. **Der Wert wandert in die operative Schicht.** Jeder Plattformwechsel der letzten vierzig Jahre wurde in der **Schicht unmittelbar über** dem zur Commodity werdenden Substrat entschieden. PC → Betriebssysteme. OS → Browser. Browser → Anwendungsplattform. Anwendungsplattform → SaaS. Diesmal: Modelle → Koordinationsschicht.
-3. **Die Koordinationsschicht ist heute ein leerer Raum.** Niemand hat sie gewonnen. Die Konsolidierungsprimitiven existieren noch nicht. Das Fenster, ein glaubwürdiges Unternehmen in dieser Schicht aufzubauen, ist achtzehn bis sechsunddreißig Monate offen.
+3. **Die Koordinationsschicht ist noch nicht gefestigt.** Viele Akteure bauen einzelne Teile, doch Entdeckung, Routing, Governance und Beweisführung sind noch nicht in einem gemeinsamen Betriebsmodell vereint.
 
 ZéNí hat mit dem richtigen Problem begonnen — Koordination, Vertrauen, Beweis — und nicht mit einem Chatbot, der später nachträglich "agentifiziert" werden müsste. Die architektonischen Entscheidungen, die aus diesem Ausgangspunkt folgen (Richtlinien als erstklassiger Backend-Service, MCP als echte Interoperabilitätsfläche, signierte Quittungen als Standard, regierte Modellzuweisung), sind keine Zusätze: sie sind das Skelett.
 
@@ -97,11 +97,13 @@ Es enthält: Essays über agentische KI, das Agentische Web, MCP; ein Manifest; 
 
 Die Produktsysteme und die öffentliche redaktionelle Ebene entwickeln sich parallel. Dieses Repository konzentriert sich auf Bildung, Positionierung, öffentlichen Kontext und die aktuellen öffentlichen Materialien.
 
+**Aktueller Stand:** ZéNí befindet sich in der Live-Pilotvorbereitung. Die verbundenen Produktoberflächen sind bereitgestellt, aber das System ist nicht allgemein verfügbar. Der Fokus liegt auf strukturierter Nutzung mit Startup-Betreibern.
+
 ---
 
 ## Die Gründerin und Kontakt
 
-**Kelisi Ananke** — Alleingründerin. Harvard / MIT Master in Design Engineering. Cambridge, USA.
+**Kelisi Ananke** — Alleingründerin. Harvard Master in Design Engineering. Cambridge, USA.
 
 - LinkedIn: <https://www.linkedin.com/in/kelisi/>
 - GitHub: <https://github.com/Kelisi808>
@@ -121,7 +123,7 @@ Die vollständigen englischen Essays liegen im Repository:
 - **[WHY_ZENI.md](../WHY_ZENI.md)** — warum ZéNí, warum jetzt
 - **[GLOSSARY.md](../GLOSSARY.md)** — Glossar
 - **[FAQ.md](../FAQ.md)** — häufige Fragen
-- **[ZéNí Pitch Deck](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — das aktuelle öffentliche Pitch Deck
+- **[Öffentlicher redaktioneller Überblick](../Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — die browserbasierte Einführung
 
 > _„Die nächste wichtige Frage in der KI ist nicht mehr die Intelligenz.
 > Es ist die Frage, wie Intelligenz nutzbar, koordiniert und vertrauenswürdig im echten Arbeitsalltag wird."_

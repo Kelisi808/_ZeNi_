@@ -22,8 +22,9 @@ A short reading path:
 - **[About ZéNí](ABOUT_ZENI.md)** — the venture, the founder, the contact path
 - **[Agentic AI](AGENTIC_AI.md)** · **[The Agentic Web](AGENTIC_WEB.md)** · **[Why MCP matters](WHY_MCP_MATTERS.md)** — the educational essays
 - **[Why ZéNí, why now](WHY_ZENI.md)** — the positioning
+- **[Causal Operating System proof](CAUSAL_OPERATING_SYSTEM_PROOF.md)** — a bounded controlled-replay and later-comparison proof
 - **[Glossary](GLOSSARY.md)** · **[FAQ](FAQ.md)** — reference material
-- **[ZéNí Pitch Deck](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — the current public deck
+- **[Public editorial brief](Z%C3%A9N%C3%AD%20Pitch%20Deck.html)** — the browser-readable venture overview
 
 ## A note on use
 
